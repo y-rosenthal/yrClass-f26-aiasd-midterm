@@ -1,0 +1,21 @@
+{
+  "q": 33,
+  "title": "Bash on Mac, Linux and Windows",
+  "choices": {
+    "a": "Wrong. CMD is the original command-line language of Windows, not Bash. It can do the same jobs as Bash, but with different commands.",
+    "b": "Correct. Bash is available on Mac and Linux. Windows does not include it, but you can install it for free, for example with Git Bash, which we used in class.",
+    "c": "Wrong. Macs have Bash too, so a Mac user can use the same commands as a Linux user. PowerShell comes with Windows; the Mac comes with Bash.",
+    "d": "Wrong. Mac and Linux already include Bash. Only the Windows user must install it."
+  },
+  "tutorial": "A **CLI** (command-line interface) lets you control the computer by typing commands in a **terminal** program. The program that reads and runs your commands is the **shell**. Each shell has its own command language.\n\n**Bash** is probably the most popular command language. The commands we learned in class, such as `pwd`, `ls`, `cd` and `mv`, are Bash commands.\n\n| Computer | Bash? | Other command languages |\n|---|---|---|\n| Linux | Included | |\n| Mac | Included | zsh, the Mac's default shell; for the class commands it works the same as Bash |\n| Windows | Not included; install it, for example with **Git Bash** (free) or WSL2 | **PowerShell** (newer, more powerful) and **CMD** (the original, simpler) |\n\nBash, PowerShell and CMD can all do the same jobs, such as moving files or making folders. They use different commands to do them. So a Bash command that you learned in class does not always work in PowerShell or CMD.\n\nIn this course, Windows users installed Git Bash. After that, all three users can type the same Bash commands and get the same results. (We did not cover WSL2.)",
+  "read_more": [
+    {
+      "text": "Ch. 14 Getting Bash on Your Computer (Mac and Windows) (the whole chapter)",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/020200-installingAndOpeningBash-v001.html"
+    },
+    {
+      "text": "Ch. 13 What Is the Command Line? › Terminal vs. shell",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/020100-whatIsTheCommandLine-v001.html#terminal-vs.-shell"
+    }
+  ]
+}

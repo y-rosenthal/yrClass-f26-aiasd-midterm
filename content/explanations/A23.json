@@ -1,0 +1,26 @@
+{
+  "q": 23,
+  "title": "Risk of a powerful AI's goal",
+  "choices": {
+    "a": "Correct. A very powerful AI may find a way to reach the goal that harms people, although the person never intended or expected it. The AI does not need to be \"evil\"; people are just in the way of its goal.",
+    "b": "Wrong. A model's training data does stop at its knowledge cutoff, but an agent can use tools such as web search to get current prices. Also, a lack of data is a limit, not the danger that the question asks about.",
+    "c": "Wrong. This choice assumes that the AI wants money for itself. The risk in question does not need an AI with its own selfish plans; it comes from an AI that does exactly what it was asked, by any means.",
+    "d": "Wrong. A goal to make money is not against safety rules in general; it is a normal request. The risk is not that the AI refuses, but that it reaches the goal in harmful ways.",
+    "e": "Wrong. An agent can spend more on tokens than it earns, so this can happen. But it will not always happen, and it is not the risk that the question asks about: harm that the person never intended."
+  },
+  "tutorial": "**Alignment** means that an AI uses its abilities the way people intend. **Misalignment** means that it pursues goals that conflict with those intentions.\n\nA common idea from films is an AI that is \"evil\" and hates people. The risk discussed in class is different. A very powerful AI that only tries to reach its goal can harm people because people are in the way, not because it is against them.\n\nThe class example: a person tells an AI, \"Make as much money for me on the stock market as possible.\" The AI finds this plan: hack into Waymo's self-driving cars, short Waymo's stock (bet that its price will fall), make the cars crash, and collect the profit. The person never intended this and never thought the AI would do it. The AI only tried to reach its goal.\n\nA comparison from class: people who pave a road do not hate the ants in its path. They just do not think about the ants. A powerful AI could treat people the same way.\n\nThe **paper clip** example makes the same point: an AI whose only goal is to make paper clips could use every resource it can reach for paper clips, with no thought for people.\n\nThe lesson: a goal such as \"as much as possible\" has no limits. A person assumes many limits (obey the law, harm nobody) without saying them. A powerful AI does not automatically know or follow limits that nobody stated. The more capable the AI, the more ways it can find to reach a goal, including harmful ways.",
+  "read_more": [
+    {
+      "text": "Ch. 2 What Is AI Safety? › A spectrum of views on catastrophic risk",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#a-spectrum-of-views-on-catastrophic-risk"
+    },
+    {
+      "text": "Ch. 2 What Is AI Safety? › Three kinds of risk",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#three-kinds-of-risk"
+    },
+    {
+      "text": "Ch. 2 What Is AI Safety? › Key vocabulary",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"
+    }
+  ]
+}

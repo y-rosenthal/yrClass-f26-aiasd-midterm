@@ -1,0 +1,21 @@
+{
+  "q": 37,
+  "title": "The jobs of HTML, CSS and JavaScript",
+  "choices": {
+    "a": "Wrong. This swaps HTML and CSS. HTML gives the text and structure, such as headings and lists, and CSS gives the colors and fonts.",
+    "b": "Correct. HTML gives the content and structure, CSS gives the look, and JavaScript adds behavior, such as what happens on a click. These are the basic roles, not strict rules: HTML alone can show extra details on a click, with the `<details>` and `<summary>` elements. But the language that is mainly responsible for click behavior is JavaScript, and no other choice matches the first two parts.",
+    "c": "Wrong. This swaps CSS and JavaScript. CSS sets the colors and fonts, and JavaScript controls what happens when you click a button.",
+    "d": "Wrong. HTML, not JavaScript, gives the headings, paragraphs and lists. JavaScript, not HTML, is mainly responsible for what happens on a click."
+  },
+  "tutorial": "A browser shows a web page from code in three languages. Each language has a main job:\n\n| Language | Main job | Examples |\n|---|---|---|\n| **HTML** (HyperText Markup Language) | Content and structure | Headings, paragraphs, bullet lists, tables, links, buttons |\n| **CSS** (Cascading Style Sheets) | Look and feel | Colors, fonts, spacing, layout |\n| **JavaScript** (JS) | Interactivity (behavior) | What happens when you click or hover; changing the page without reloading it |\n\nHTML is written with **tags**, such as `<h1>` and `</h1>`. CSS is written as **rules** that say how things look. JavaScript looks like a usual programming language, with functions, `if`/`else` and loops.\n\nYou can keep each language in its own file (`.html`, `.css`, `.js`), or you can put all three in one `.html` file.\n\nThese jobs are the basic idea, not strict rules. HTML can control some of the look, and JavaScript can create text and change the HTML and CSS. HTML also has a few elements with built-in behavior: for example, `<details>` and `<summary>` show or hide extra text on a click. When a question asks which language is *mainly* responsible, use the main jobs in the table.",
+  "read_more": [
+    {
+      "text": "Ch. 35 HTML, CSS, JavaScript, and Browser Developer Tools › Three languages, three jobs",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040300-htmlCssJavascriptAndDevTools-v001.html#three-languages-three-jobs"
+    },
+    {
+      "text": "Ch. 93 Overview of HTML, CSS, JavaScript (the whole chapter)",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/000500-htmlCssJavascript-v001.html"
+    }
+  ]
+}

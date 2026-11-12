@@ -1,0 +1,25 @@
+{
+  "q": 19,
+  "title": "Deterministic and non-deterministic results",
+  "choices": {
+    "a": "Correct. The model's own answer comes from probabilities, so it can differ from try to try; the program gives the same sum every time. Way 1 means the model answers by itself, with no tools. Some AI apps quietly run code for arithmetic, and then their answer also comes from a program.",
+    "b": "Wrong. This choice swaps the two. The model's direct answer depends on probability; the program that adds two numbers gives the same result every time.",
+    "c": "Wrong. Running on a computer does not make a result deterministic. An LLM picks each next token from a probability distribution, so its direct answer can change from one try to the next.",
+    "d": "Wrong. The LLM writes the program, but after that the program runs by itself. Running the same program on the same numbers always gives the same sum."
+  },
+  "tutorial": "A process is **deterministic** when it always gives the same result for the same input. It is **non-deterministic** when the result can change, because it depends on probability.\n\n- **Classical programs** are usually deterministic. A program that adds two numbers gives the same sum every time.\n- **LLMs** are non-deterministic. For each next token, the model calculates a **probability distribution** (a probability for every token it knows). The software then picks one, usually a likely one, but not always the most likely. So the same question can get different answers.\n\nExact arithmetic with very large numbers is hard for a model that answers directly. For small numbers, the training data has many examples. A sum of two 100-digit numbers probably never appeared in the training data. The model then produces digits that look plausible, and some can be wrong.\n\nWriting a program to add two numbers is easy for the model, because training included a lot of code. Once the program exists, running it is deterministic and exact.\n\nThis is why it is often better to have the AI **write and run a program** than to answer from its training. Coding agents such as Claude Code can do both steps: write the program and run it. Many newer AI apps also run small programs behind the scenes for tasks such as arithmetic or counting letters. In those apps, a \"direct\" answer may already come from a program.\n\nWhen an exact result matters, ask the AI to use a tool, or check the result yourself.",
+  "read_more": [
+    {
+      "text": "Ch. 8 How Large Language Models Work › Programming vs. training",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#programming-vs.-training"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Choosing the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#choosing-the-next-token"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Why LLMs sometimes make things up",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#why-llms-sometimes-make-things-up"
+    }
+  ]
+}

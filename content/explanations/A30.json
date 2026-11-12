@@ -1,0 +1,26 @@
+{
+  "q": 30,
+  "title": "Where to put a standing rule",
+  "choices": {
+    "a": "Wrong. README.md describes the repository for people, and GitHub shows it on the repository's home page. Claude Code does not load it automatically as a set of rules.",
+    "b": "Wrong. Claude Code loads a skill's full instructions only when it decides that they are useful, or when you type the skill's slash command. A rule that must apply every time could be missed.",
+    "c": "Correct. Claude Code loads CLAUDE.md automatically at the start of every session in that folder. Claude sees the rule every time it works on the project.",
+    "d": "Wrong. The system prompt is written by the maker of the tool, not by you. You cannot put your own project's rules there.",
+    "e": "Wrong. An MCP server connects Claude to an outside service and gives it new tools. It is not a place for rules about how Claude works."
+  },
+  "tutorial": "Each Claude Code session starts with a fresh **context window**, Claude's working memory. Claude does not remember earlier sessions by itself. **CLAUDE.md** is a plain-text Markdown file that gives Claude standing instructions: how to run the project, the team's rules, mistakes to avoid.\n\nHow CLAUDE.md works:\n\n- Claude Code puts CLAUDE.md into the context automatically, at the start of **every session** in that folder.\n- You can have different CLAUDE.md files in different folders. A project's CLAUDE.md is usually committed to Git, so the whole team shares it.\n- After `/clear` or `/compact`, CLAUDE.md is still loaded.\n- **AGENTS.md** does the same job. It became the standard file name for all AI coding tools, and Claude Code also recognizes it.\n\nCompare CLAUDE.md with a **skill**. Only a skill's description is always in the context; its full instructions load only when Claude decides they are useful. So:\n\n| Kind of instruction | Where it goes |\n|---|---|\n| A rule for all work on the project (\"run the tests before you say a task is done\") | `CLAUDE.md` |\n| A procedure for one kind of task (\"make the weekly sales report\") | A skill |\n\nKeep CLAUDE.md short. Everything in it uses context space in every session.\n\nOne more fact: CLAUDE.md is guidance, not a guarantee. Claude reads it and tries to follow it, but nothing forces it to. If something must never happen, use a permission rule or a hook instead.",
+  "read_more": [
+    {
+      "text": "Ch. 50 CLAUDE.md and Memory › Why Claude needs a memory file",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060600-claudeMdAndMemory-v001.html#why-claude-needs-a-memory-file"
+    },
+    {
+      "text": "Ch. 50 CLAUDE.md and Memory › Where CLAUDE.md files live",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060600-claudeMdAndMemory-v001.html#where-claude.md-files-live"
+    },
+    {
+      "text": "Ch. 55 Extending Claude Code: The Big Picture › The extension points at a glance",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/070100-extendingOverview-v001.html#the-extension-points-at-a-glance"
+    }
+  ]
+}

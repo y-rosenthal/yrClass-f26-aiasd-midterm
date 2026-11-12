@@ -1,0 +1,26 @@
+{
+  "q": 20,
+  "title": "Hidden instructions on a web page",
+  "choices": {
+    "a": "Wrong. Distillation means training a new model on another model's answers. Nobody is copying a model here.",
+    "b": "Correct. An attacker hid instructions in content that the AI reads. If the AI obeys them, it follows the attacker instead of its user. This is prompt injection.",
+    "c": "Wrong. In a jailbreak, the person typing the prompt is the attacker. Here the user is the victim, and the attack comes in through a web page.",
+    "d": "Wrong. A zero-day is a flaw in software that nobody knew about yet. This attack uses no software flaw; it uses hidden text that the AI reads.",
+    "e": "Wrong. Misalignment means that an AI pursues goals that conflict with what people intend. Here the danger comes from an outside attacker's hidden text, not from the AI's own goals."
+  },
+  "tutorial": "An LLM cannot reliably tell *your* instructions apart from other text that it reads while it works. **Prompt injection** uses this weakness: an attacker hides instructions in content that the AI will read. The AI may then follow the attacker instead of its user.\n\nHidden instructions can be in a web page (for example, white text on a white background), an email, a PDF, a GitHub issue, or code that you clone. You do not see the text, but the AI reads all of it.\n\nCompare two attacks:\n\n| | Who is the attacker? | How does the attack get in? |\n|---|---|---|\n| **Jailbreak** | The person typing the prompt | The prompt itself, written to get around the model's safety rules |\n| **Prompt injection** | Someone else; the user is the victim | Content the AI reads while it works |\n\nPrompt injection is a big risk for **agents** such as Claude Code and browser agents, because they can take real actions: send email, run commands, upload files.\n\nA useful rule is the **lethal trifecta**. An agent is most dangerous when it has all three of these:\n\n1. Access to your private data\n2. Exposure to untrusted content (anything an attacker could write)\n3. A way to send data out (email, web requests)\n\nRemove one of the three, and the attack gets much harder. That is why you should give an AI only the access it needs.",
+  "read_more": [
+    {
+      "text": "Ch. 9 Limits, Risks, and Responsible Use › Prompt injection",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010300-limitsRisksAndResponsibleUse-v001.html#prompt-injection"
+    },
+    {
+      "text": "Ch. 4 More AI Security Incidents › Prompt injection: the AI obeys the wrong person",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005250-moreAiSecurityIncidents-v001.html#prompt-injection-the-ai-obeys-the-wrong-person"
+    },
+    {
+      "text": "Ch. 2 What Is AI Safety? › Key vocabulary",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"
+    }
+  ]
+}

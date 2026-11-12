@@ -1,0 +1,12 @@
+# The exams {.unnumbered}
+
+These are the three versions of the midterm exam, as they were given on paper.
+
+| Version | Question 1 starts | PDF | Word |
+|:---:|---|---|---|
+| A | "The task app is written with Next.js, which is a framework. …" | [PDF](exams/midterm-f26-version-A.pdf) | [Word](exams/midterm-f26-version-A.docx) |
+| B | "What does it mean to distill an AI model? …" | [PDF](exams/midterm-f26-version-B.pdf) | [Word](exams/midterm-f26-version-B.docx) |
+| C | "You have step-by-step instructions, plus a small program, …" | [PDF](exams/midterm-f26-version-C.pdf) | [Word](exams/midterm-f26-version-C.docx) |
+
+The three versions have the same questions and the same answer choices, in a different order. The PDF files
+were made from the Word files.

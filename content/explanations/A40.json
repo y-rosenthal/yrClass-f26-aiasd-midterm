@@ -1,0 +1,21 @@
+{
+  "q": 40,
+  "title": "The training (knowledge) cutoff date",
+  "choices": {
+    "a": "Wrong. The cutoff is the date the training data ends, not the date training starts. The model does not learn from your chats: its weights do not change while you chat.",
+    "b": "Wrong. The model keeps working after its cutoff date. It only lacks built-in knowledge of what happened after that date.",
+    "c": "Correct. What the model learned is stored in its weights, and that knowledge ends at the date the training data ends. Apps add newer facts with web search or with documents that you paste in.",
+    "d": "Wrong. This reverses the idea. The cutoff limits the model's built-in knowledge, and web search is how apps work around the cutoff."
+  },
+  "tutorial": "An LLM has two kinds of \"memory\".\n\n**Long-term memory** is what the model learned in training. It is stored in the model's **weights** (the numbers inside the model). It ends at the **knowledge cutoff** (also called the **training cutoff**): the date when the training data ends. The weights do not change while you chat, so the model does not learn from your conversations.\n\n**Working memory** is the **context window**: the text that the model can consider for the current request. This includes the system prompt, the conversation so far, files and tool results.\n\nBecause of the cutoff:\n\n- the model knows little about events after the cutoff;\n- it may confidently describe an *old* version of a tool that changes fast, including Claude Code itself.\n\nApps work around the cutoff by putting newer information into the context window:\n\n- **web search**: the app searches the web and adds the results to the context;\n- **documents**: you paste the current documentation or a changelog into the chat.\n\nA model keeps working after its cutoff. A newer model has a later cutoff because it was trained on newer data.",
+  "read_more": [
+    {
+      "text": "Ch. 8 How Large Language Models Work › Long-term memory: frozen at the knowledge cutoff",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#long-term-memory-frozen-at-the-knowledge-cutoff"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Working memory: the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#working-memory-the-context-window"
+    }
+  ]
+}

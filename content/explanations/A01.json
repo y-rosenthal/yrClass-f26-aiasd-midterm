@@ -1,0 +1,18 @@
+{
+  "q": 1,
+  "title": "What a framework is",
+  "choices": {
+    "a": "Correct. A framework is ready-made code plus a standard structure for a certain kind of app. You write only the parts that are special to your app. The framework does the common jobs, such as moving between pages and talking to the server.",
+    "b": "Wrong. This describes a database. In the task app, the PostgreSQL database on Supabase stores the data in tables. Next.js does not store the app's data.",
+    "c": "Wrong. This describes hosting. In the task app, Vercel hosts the website at a public address. Next.js is the code that the app is built with, not the computers that run it.",
+    "d": "Wrong. This describes third-party services. In the task app, Supabase handles logins and Stripe handles payments. A framework is code that you build on, not an outside service.",
+    "e": "Wrong. This describes a testing tool. A framework gives you the structure and code to build an app. It does not test the app or find its bugs."
+  },
+  "tutorial": "A **framework** is a ready-made foundation, plus a set of rules (conventions), for building a certain kind of app. Many apps need the same common jobs: moving between pages, updating the screen when data changes, and talking to the server. The framework already does these jobs. You write only the parts that are special to your app.\n\nA framework gives you:\n\n- less code to write,\n- a standard project layout that other developers recognize,\n- built-in solutions to common problems.\n\nThe task app is written with **Next.js**. Next.js builds on the front-end framework React and adds the server side. It produces code for two places:\n\n- the **front end**: the part that runs in the user's browser (the pages, buttons and forms),\n- a part that runs on the **web server**.\n\nWhatever framework you use, the browser still receives HTML, CSS and JavaScript in the end. The framework's tools generate them for you.\n\nA framework is only one piece of an app's **tech stack**: the set of technologies an app is built from, together with where each part runs. Keep the pieces of the task app separate:\n\n| Piece | Job |\n|---|---|\n| Next.js | the framework that the app's code is written with |\n| Supabase | database, logins, storage, Edge Functions |\n| Stripe | subscription payments |\n| Vercel | hosts the website at a public address |\n| GitHub | stores the code |",
+  "read_more": [
+    {"text": "Ch. 37 Web Frameworks and Meta-Frameworks › What a framework is",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/040500-webFrameworks-v001.html#what-a-framework-is"},
+    {"text": "Ch. 71 Project Architecture › Project Architecture",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"}
+  ]
+}

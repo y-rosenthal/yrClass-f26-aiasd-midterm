@@ -1,0 +1,17 @@
+{
+  "q": 11,
+  "title": "Why AI labs focus on coding",
+  "choices": {
+    "a": "Wrong. No law requires AI models to pass a coding test before release. The focus on coding comes from what code lets an AI do.",
+    "b": "Wrong. Coding tools do sell well, but sales are not the main reason. The deeper reason is that coding ability lets an AI extend everything else it can do.",
+    "c": "Wrong. The focus on coding is not about saving money on training. Models are trained on huge amounts of text of all kinds. Labs focus on coding because of what programs can do, not because code is short.",
+    "d": "Correct. If an AI can write a program to do something, it can do anything a program can do. This lets the AI extend its own capabilities, and it could eventually lead to recursive self-improvement (RSI)."
+  },
+  "tutorial": "An LLM by itself predicts the next token. It answers from patterns it learned in training. That is **non-deterministic**: the answer depends on probability, so it is not always the same, and not always right.\n\nA classic program is **deterministic**: it follows fixed rules and gives the same result every time. So for exact tasks, a program does better than the model's guess.\n\nTwo examples from earlier models:\n\n- **Adding two very large numbers.** The exact sum probably never appeared in the training data, so the model often guessed wrong. When asked to write a Python program that adds the numbers, it got the right answer.\n- **Counting the i's in \"mississippi\".** The model relied on its memory from training and got it wrong. A short program counted correctly.\n\nThe general idea: **a model that can write and run programs can do anything a program can do.** Programs can do exact arithmetic, read files, analyze data, work with websites, and much more. So coding ability is not just one more skill. It lets an AI extend its capabilities and do things that it could not do before.\n\nThis is why model builders, especially Anthropic and Google, work so hard on coding. It also leads to a bigger idea. AI models are themselves built with programs, so an AI that codes well can help build the next AI. Taken far enough, this is **recursive self-improvement (RSI)**: AI builds the next, more capable AI, again and again.\n\nNewer models make fewer of these mistakes. They have more training, and their harnesses often run code behind the scenes for them.",
+  "read_more": [
+    {"text": "Ch. 8 How Large Language Models Work › Programming vs. training",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#programming-vs.-training"},
+    {"text": "Ch. 8 How Large Language Models Work › Tools: how an LLM becomes an agent",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tools-how-an-llm-becomes-an-agent"}
+  ]
+}

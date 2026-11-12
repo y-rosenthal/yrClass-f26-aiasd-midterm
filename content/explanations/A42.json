@@ -1,0 +1,25 @@
+{
+  "q": 42,
+  "title": "How git helps with broken code",
+  "choices": {
+    "a": "Correct. Each commit records the state of all the project's files at that moment. You can see what changed since the version that worked, and you can go back to that version.",
+    "b": "Wrong. The .git folder holds git's record of every version. It does not lock your files; you edit them normally.",
+    "c": "Wrong. This describes GitHub, a website that stores copies of git repos online. Git itself is a program that runs on your computer and works offline.",
+    "d": "Wrong. Git does not find or fix bugs. It records versions, so you can compare them and go back to an earlier one."
+  },
+  "tutorial": "**Git** is a tool for managing changes to files over time, mostly code files. It works with any text files.\n\nWith git, you take a **snapshot** of your project whenever you reach a good point, for example \"the login page works\". In git, a snapshot is a **commit**. Each commit records:\n\n- the state of **all** the project's files at that moment;\n- a short **message** that describes the change;\n- the **author** and the **date**;\n- a unique **ID**, such as `4293e1d`.\n\nThe list of all commits is the project's **history**. With the history you can:\n\n- see the state of the files in an earlier version;\n- see the differences between two versions, line by line;\n- go back to an earlier version of one file or of the whole project.\n\nA **repository** (**repo**) is a project folder whose history git keeps. Git stores the history in a hidden folder named `.git` at the top of the repo. If you delete `.git`, your files stay, but the history is gone.\n\nSo if your code worked last week, and you made a commit then, git can show you what changed since then and bring back the working version. This is even more important when an AI coding agent changes many files for you: commit before you let it work.",
+  "read_more": [
+    {
+      "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Snapshots: save points for your project",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#snapshots-save-points-for-your-project"
+    },
+    {
+      "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Key words: repository, commit, and the .git folder",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#key-words-repository-commit-and-the-.git-folder"
+    },
+    {
+      "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Why Git matters even more with AI coding agents",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#why-git-matters-even-more-with-ai-coding-agents"
+    }
+  ]
+}

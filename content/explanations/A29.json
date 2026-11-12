@@ -1,0 +1,22 @@
+{
+  "q": 29,
+  "title": "Temperature and predictable answers",
+  "choices": {
+    "a": "Wrong. The effort level sets how much the model thinks before it answers. It does not control how often the model picks less likely words.",
+    "b": "Wrong. The vocabulary is the fixed set of tokens that a model uses. It does not decide how strictly the model picks from them.",
+    "c": "Wrong. The context window is how much text the model can consider at once. It does not change how the model picks the next word.",
+    "d": "Wrong. The number of parameters measures the size of the model. It is fixed by training and is not a setting for how predictable the answers are.",
+    "e": "Correct. Temperature sets how strictly the model sticks to the most probable words. A low temperature suits the bank; a higher temperature suits the novelist."
+  },
+  "tutorial": "For each next word (more exactly, each next **token**), a model calculates a **probability distribution**: a probability for every token it knows. For \"The boy went to the ___\", \"store\" and \"school\" have high probabilities, and \"purple\" has a very low one. The software then picks one token from this distribution. It usually picks a likely token, but not always the most likely one. With two dice, 7 is the most likely total, but other totals also happen.\n\n**Temperature** is the setting that controls how this pick is made. It is typically a number between 0 and 1.\n\n- **Low temperature** (near 0): the model almost always picks the most probable token. Answers are more predictable. At 0, it always picks the most probable token, although the output is still not guaranteed to be identical every time.\n- **Higher temperature** (near 1): the model picks according to the learned probabilities, so less likely tokens are picked more often. Answers are more varied and surprising, but also more likely to go off track.\n\nDo not confuse temperature with other settings and sizes:\n\n| Term | What it is |\n|---|---|\n| Effort | How much the model thinks before it answers |\n| Context window | How much text the model can consider at once |\n| Vocabulary | The set of tokens the model uses |\n| Parameters | The model's weights; their number measures the model's size |\n\nChat apps choose the temperature for you. Many developer APIs let you set it, but some newer models, including Anthropic's newest Claude models, no longer allow you to change it.",
+  "read_more": [
+    {
+      "text": "Ch. 8 How Large Language Models Work › Choosing the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#choosing-the-next-token"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › An LLM predicts the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#an-llm-predicts-the-next-token"
+    }
+  ]
+}

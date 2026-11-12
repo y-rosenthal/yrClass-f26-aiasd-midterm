@@ -1,0 +1,20 @@
+{
+  "q": 12,
+  "title": "Hidden contents of the context window",
+  "choices": {
+    "a": "Wrong. Only the files that Claude has opened are in the context window, not every file in the project. Each file that Claude reads does take space, even though you see only one line such as Read auth.ts.",
+    "b": "Wrong. Your usage is tracked on Anthropic's side and shown by /usage. Claude does not read your usage numbers before each reply, and they are not part of the conversation.",
+    "c": "Correct. A reasoning (thinking) model writes out intermediate steps before its final answer. This thinking is part of the model's output, so it goes into the context window even if you do not see it. Higher effort means more thinking and more tokens.",
+    "d": "Wrong. Training data is not in the context window. What the model learned in training is stored in its weights, which are a different kind of memory.",
+    "e": "Wrong. Each session has its own context window. Chats in other projects are not in it, and a new chat starts without the earlier ones."
+  },
+  "tutorial": "The **context window** is the model's working memory for one session. It is the maximum amount of text, measured in **tokens**, that the model can consider at once. Everything in it uses that space, whether you see it on the screen or not.\n\nWhat fills the context window in Claude Code:\n\n| Part | Shown on the screen? |\n|---|---|\n| Claude Code's instructions (the **system prompt**) | no |\n| CLAUDE.md, auto memory, skill descriptions, MCP tool names | no |\n| your messages and Claude's replies | yes |\n| every file Claude reads and every command's output | usually only one line, such as `Read auth.ts` |\n| the model's **thinking** | usually not in full |\n\nA **reasoning model** (or \"thinking\" model) writes out intermediate steps, called **thinking**, before its final answer. Thinking helps on multi-step problems such as planning and debugging. But thinking is output, so it takes space in the context window, and thinking tokens are billed like other output tokens. The **effort** setting (`low`, `medium`, `high`, `xhigh`, `max`) controls how much the model thinks: higher effort means more thinking and more tokens.\n\nWhat is **not** in the context window:\n\n- the training data (the model's long-term knowledge is stored in its weights),\n- files that Claude has not opened,\n- other sessions and other projects,\n- your usage numbers.\n\nRun `/context` in Claude Code to see a colored grid of what is using space now.",
+  "read_more": [
+    {"text": "Ch. 8 How Large Language Models Work › Reasoning (“thinking”) models and effort",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#reasoning-thinking-models-and-effort"},
+    {"text": "Ch. 52 Context, Models, Effort, and Usage › The context window in practice",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"},
+    {"text": "Ch. 8 How Large Language Models Work › Working memory: the context window",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#working-memory-the-context-window"}
+  ]
+}

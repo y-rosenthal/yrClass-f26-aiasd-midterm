@@ -1,0 +1,26 @@
+{
+  "q": 35,
+  "title": "Vercel's job in the task app",
+  "choices": {
+    "a": "Wrong. This is the job of the OpenAI API. An Edge Function on Supabase sends the new task to OpenAI and gets back the label.",
+    "b": "Wrong. Supabase does authentication, including \"Sign in with Google\" (with Google's sign-in service). Vercel does not check passwords.",
+    "c": "Wrong. Supabase stores the app's data, in its PostgreSQL database.",
+    "d": "Wrong. GitHub stores the code and the history of every change; your copy is a fork. Vercel imports the code from GitHub, but it is not where the code and its history are kept.",
+    "e": "Correct. Once the app is online, Vercel is the web server. It imports the code from GitHub, builds the app and hosts it at a public address, so anyone can open it."
+  },
+  "tutorial": "A **web server** is a program that sends a website's pages to browsers. A **host** is a company whose computers run your website on the Internet.\n\nThe task app runs in two places at different times:\n\n- **While you develop**, the web server is a **development server** on your own computer. Its address is `localhost:3000`, which means \"the program on this computer that listens on port 3000\". Nobody else can open it.\n- **After you deploy**, the same app runs on **Vercel** at a public address. Anyone with the address can open it.\n\nIn both places, the back end is the same Supabase project.\n\n**Deploying** means putting the app online. With Vercel it works like this:\n\n1. Vercel imports your repository (your fork) from GitHub.\n2. Vercel builds the app and hosts it at a public address.\n3. From then on, every push to your fork makes Vercel deploy the new version automatically.\n\nYou give Vercel only the Supabase URL and the publishable key. You give it no secret keys, because the secrets stay on Supabase.\n\nEach part of the tech stack has one job. Vercel hosts the website. Supabase gives the database, logins, image storage and Edge Functions. GitHub stores the code. Google, OpenAI and Stripe do sign-in, AI labels and payments.",
+  "read_more": [
+    {
+      "text": "Ch. 40 Hosting and Deployment: Getting Your App Online › Deploying from GitHub",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040700-hostingAndDeployment-v001.html#deploying-from-github"
+    },
+    {
+      "text": "Ch. 40 Hosting and Deployment: Getting Your App Online › Development vs. production",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040700-hostingAndDeployment-v001.html#development-vs.-production"
+    },
+    {
+      "text": "Ch. 71 Project Architecture › Project Architecture",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"
+    }
+  ]
+}

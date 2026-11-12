@@ -1,0 +1,38 @@
+# About this site {.unnumbered}
+
+This site explains the questions on the Fall 2026 midterm exam of **AI Assisted Software Development**.
+
+## What is here
+
+- **[The exams](the-exams.qmd):** the three versions of the exam (A, B and C), as they were given.
+- **[Answers for all three versions](answers-all-versions.qmd):** the correct answer to every question in each
+  version, and where to find each question in the other versions.
+- **Version A, explained:** every question of Version A. For each question you see:
+  - the question and all its answer choices. The correct answer is in **larger bold text**;
+  - under each choice, in smaller *italic* text, why that choice is correct or wrong;
+  - a short **Background** section that explains the material behind the question;
+  - links to the parts of the course book that cover it.
+
+## The three versions have the same questions
+
+The three versions have the same 45 questions and the same answer choices. Only the order is different: the
+order of the questions, and the order of the choices in each question. So the explanations for Version A cover
+every version. The letter of a choice can be different in your version, but the text of the choice is the same.
+
+The test papers do not show the version letter. Find your version by question 1:
+
+- **Version A:** "The task app is written with Next.js, which is a framework. What is a framework?"
+- **Version B:** "What does it mean to distill an AI model?"
+- **Version C:** "You have step-by-step instructions, plus a small program, for turning your sales spreadsheet
+  into a weekly report. …"
+
+Then use [Answers for all three versions](answers-all-versions.qmd) to find each of your questions in Version A.
+
+## How the exam was graded
+
+- Each student skipped 3 of the 43 multiple-choice questions.
+- The other 40 questions are worth 2.5 points each, 100 points in all.
+- The matching questions (44 and 45) were not graded: everyone was told to skip them. They are explained here
+  so that you can learn the material.
+
+This site is available for a limited time.

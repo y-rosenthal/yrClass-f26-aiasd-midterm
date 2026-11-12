@@ -1,0 +1,13 @@
+{
+  "q": 2,
+  "title": "Choosing a programming language",
+  "choices": {
+    "a": "Wrong. Fewer lines of code do not make a program run better or scale better. How fast people can write the code is a small, real factor, but it is not the first thing to consider. When AI writes much of the code, it matters more that people can read the code easily.",
+    "b": "Wrong. The opposite is true. Many people use and check a popular language, so its flaws are found and fixed quickly. A popular, mature language is also more likely to be supported and patched for many years.",
+    "c": "Correct. Fit for purpose comes first. Each language was designed for certain jobs and places: the browser runs JavaScript, and Swift is Apple's language for iPhone apps. So what the product must do, and where its code runs, decide much of the choice.",
+    "d": "Wrong. Newer languages do not run faster in general. A new language also has fewer developers who know it, fewer packages, and fewer public answers to common problems.",
+    "e": "Wrong. Customers never read the code. They use the finished product. The code is read by developers and by AI tools."
+  },
+  "tutorial": "A **programming language** is a set of words and rules for writing instructions that a computer can run. There are many languages, and each one was designed for certain jobs and certain places.\n\nWhere the code runs often decides the language:\n\n| Where the code runs | Language |\n|---|---|\n| in the web browser (the front end) | JavaScript, with HTML and CSS |\n| in the database | SQL |\n| in a native iPhone app | Swift |\n| in a native Android app | Kotlin |\n| on a server (the back end) | many choices, for example Python or JavaScript |\n\nSo a modern product is almost never written in one language. Choosing a language mainly means choosing the back-end language and the plan for mobile apps. The rest follows from where the code must run.\n\nAfter fit for purpose, a business usually prefers a **popular, mature** language. Such a language:\n\n- makes it easier to hire developers who know it,\n- has problems that other people already met and solved in public,\n- has many people checking it, so security flaws are found and fixed quickly,\n- is more likely to be supported and patched for many years.\n\nAI coding tools are also most reliable in popular languages, because there is much public code in them.\n\nSome things matter little. The age of a language does not make it faster. Fewer lines of code do not make a program run better. Customers never read the code. And the language is rarely the main risk: products fail more often from unclear requirements and missing security.",
+  "read_more": []
+}

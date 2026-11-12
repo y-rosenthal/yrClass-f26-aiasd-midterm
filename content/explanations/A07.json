@@ -1,0 +1,19 @@
+{
+  "q": 7,
+  "title": "What an LLM and an agent are",
+  "choices": {
+    "a": "Wrong. The agent part is right, but the LLM part is wrong. An LLM is not a search engine: it does not look up and merge web pages. It predicts the next token from what it learned in training.",
+    "b": "Wrong. Both parts are wrong. Rules written by programmers describe classic programming; an LLM learns its patterns from examples instead. A bigger context window does not make a model an agent; an agent is an LLM with tools, in a loop.",
+    "c": "Wrong. The LLM part is right, but the agent part is wrong. A smaller model trained on another model's answers describes distillation, not an agent.",
+    "d": "Correct. An LLM is a neural network trained on huge amounts of text, and it predicts the next token. An agent is an LLM plus tools plus a loop: it acts, checks the result, and decides the next step."
+  },
+  "tutorial": "A **large language model (LLM)** is a deep neural network trained on enormous amounts of text to do one thing: given some text, predict what comes next. It works in **tokens**, small chunks of text such as a word or part of a word. To write an answer, the model predicts one token, adds it to the text, and predicts again.\n\nAn LLM is not programmed with rules. In classic programming, a person writes the rules. An LLM **learns** its patterns from examples during training.\n\nBy itself, an LLM can only produce text. An **agent** can also act. It has three ingredients:\n\n1. **An LLM** that reads the situation and decides the next step.\n2. **Tools**: actions that the model may request, such as read a file, edit a file, run a command, or search the web. The model only asks; the program around it runs the tool and sends back the result.\n3. **A loop**: the model keeps choosing actions and reading the results until the task is done.\n\nThe program around the model, which supplies the tools, runs them, and manages what the model sees, is the **harness**. Claude Code is the harness; Claude is the model inside it.\n\nWatch for these mix-ups:\n\n- A search engine finds web pages. An LLM can search the web only when a tool lets it.\n- A bigger context window lets a model consider more text at once. It does not make the model an agent.\n- **Distillation** trains a smaller model on another model's answers. That makes a copy, not an agent.",
+  "read_more": [
+    {"text": "Ch. 8 How Large Language Models Work › An LLM predicts the next token",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#an-llm-predicts-the-next-token"},
+    {"text": "Ch. 8 How Large Language Models Work › Tools: how an LLM becomes an agent",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tools-how-an-llm-becomes-an-agent"},
+    {"text": "Ch. 11 AI-Assisted Development: From Chatbots to Coding Agents › What makes a tool an agent",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010400-aiAssistedDevelopment-v001.html#what-makes-a-tool-an-agent"}
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "q": 14,
+  "title": "Context rot in long sessions",
+  "choices": {
+    "a": "Wrong. The training cutoff is the fixed date when the model's training data ends. It cannot pass during a session, and it has nothing to do with the messages in your chat.",
+    "b": "Correct. This is context rot. As the context window fills up, the model gets worse at using what is in it. It tends to miss information in the middle of a long conversation most often.",
+    "c": "Wrong. When you hit a usage limit, you are blocked until the limit resets, unless you upgrade or use usage credits. Claude does not switch to a weaker model.",
+    "d": "Wrong. Temperature is a setting that controls how random the choice of the next token is. The app sets it, and it does not rise during a session.",
+    "e": "Wrong. When the prompt cache expires, the next reply costs more, because the server must process the whole conversation again at the full price. Claude still receives the whole conversation, so it does not forget anything."
+  },
+  "tutorial": "The **context window** is the model's working memory for one session. It holds Claude Code's instructions, CLAUDE.md, your messages, Claude's replies, every file Claude reads, and every command's output. Every message you send makes Claude Code send all of this to the model again.\n\nCurrent Claude models have large context windows (1 million tokens). But how full the window is still matters.\n\n**Context rot** means that the model's quality drops as the context window fills. The model may forget earlier instructions or decisions, or make more mistakes. Research has found that models tend to miss information in the **middle** of a long context more often than at its beginning or end. So a decision made halfway through a long session is at the highest risk.\n\nThe fix is to keep the used part of the window small:\n\n| Command | What it does |\n|---|---|\n| `/clear` | starts a new conversation with an empty context (CLAUDE.md still loads) |\n| `/compact` | summarizes the conversation so far to free space; `/compact focus on ...` tells it what to keep |\n| `/rewind` | goes back to an earlier point and drops the detour |\n| `/context` | shows what fills the window |\n\nWhen the window gets close to full, Claude Code also compacts automatically. Details that you mentioned only in the chat can be lost then. So put lasting decisions and rules in **CLAUDE.md**: it is loaded again after compaction and after `/clear`.\n\nDo not confuse context rot with the prompt cache. An expired cache makes the next reply slower and more expensive. It does not change what Claude knows.",
+  "read_more": [
+    {"text": "Ch. 52 Context, Models, Effort, and Usage › The context window in practice",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"},
+    {"text": "Ch. 52 Context, Models, Effort, and Usage › Freeing up context: /compact, /clear, and friends",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#freeing-up-context-compact-clear-and-friends"}
+  ]
+}

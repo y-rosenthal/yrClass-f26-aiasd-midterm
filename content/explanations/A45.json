@@ -1,0 +1,25 @@
+{
+  "q": 45,
+  "title": "The task app's tech stack",
+  "items": {
+    "1": "OpenAI API -> B. When a user creates a task, an Edge Function sends the task's title and description to the OpenAI API, which returns one label.",
+    "2": "Stripe -> C. Stripe handles the payments for the Premium plan, with its checkout page and its customer portal.",
+    "3": "Supabase -> A. Supabase is the ready-made back end. It gives the app a PostgreSQL database, logins, storage for images and Edge Functions.",
+    "4": "GitHub -> E. GitHub stores the app's code. Your copy is a fork: your own copy of the course's repository, in your GitHub account.",
+    "5": "Google -> F. \"Sign in with Google\" lets users sign in with a Google account that they already have. Supabase does the login, and Google confirms who the user is."
+  },
+  "unused": {
+    "D": "No part of the tech stack writes the app's code. The code was already written (it comes from a tutorial video); this meaning describes an AI coding tool, such as Claude Code."
+  },
+  "tutorial": "A **tech stack** is the set of technologies that an app is built from, together with where each part runs. The task app uses the computers of many companies:\n\n| Part | Its job |\n|---|---|\n| **Next.js** | The framework that the app is written in; it makes the front end (in the browser) and a part that runs on the web server |\n| **Supabase** | The ready-made back end: PostgreSQL database, logins, image storage, Edge Functions |\n| **Google** | \"Sign in with Google\" |\n| **OpenAI API** | Picks a label for each new task |\n| **Stripe** | Subscription payments |\n| **GitHub** | Stores the code; your copy is a fork |\n| **Vercel** | Hosts the website online (the web server) |\n\nAn **Edge Function** is a small program that runs on Supabase's servers. The app's Edge Functions talk to OpenAI and Stripe, because those requests need secret keys, and anything in the browser can be read by anyone.\n\nWhy so many companies? Each company specializes in one hard job, such as logins, payments or AI. Instead of building these yourself, you use their service. The app connects to each service with web addresses and keys. The trade-off is that you must manage many accounts, keys and settings.\n\nThe app's code was already written. The setup work was to create the accounts and to connect the services.",
+  "read_more": [
+    {
+      "text": "Ch. 71 Project Architecture › Project Architecture",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"
+    },
+    {
+      "text": "Ch. 38 APIs, API Keys, and Third-Party Services › Why apps use third-party services",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040600-apisKeysAndThirdPartyServices-v001.html#why-apps-use-third-party-services"
+    }
+  ]
+}

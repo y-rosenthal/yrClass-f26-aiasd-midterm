@@ -1,0 +1,25 @@
+{
+  "q": 17,
+  "title": "The model and the harness",
+  "choices": {
+    "a": "Wrong. Claude Code is not a model; it is a program that uses a model. Opus 5.5 is not a subscription plan; it is a model. Plans are things such as Pro and Max.",
+    "b": "Wrong. Claude Code is not a model at all, so it is not a smaller version of Opus 5.5. It is the software that sends your requests to a model and runs tools for it.",
+    "c": "Wrong. This choice swaps the two roles. Opus 5.5 is the model that generates text, and Claude Code is the harness that runs commands.",
+    "d": "Correct. Opus 5.5 is the model: it generates the next word. Claude Code is the harness: it gives the model tools and runs them. More exactly, a model generates the next token, which is a word or part of a word; the question says \"word\" to keep it simple."
+  },
+  "tutorial": "An AI coding tool has two parts that work together.\n\n- The **model** is the \"brain\". It is an LLM that continuously generates the next word (more exactly, the next **token**) in a sequence. Claude's models come in families such as Haiku, Sonnet, Opus and Fable, and each family has releases, for example Opus 5.5.\n- The **harness** is the software product around the model. It is written like classical software. It gives the model **tools** (read a file, edit a file, run a command), runs those tools, decides what the model sees (its **context**), and checks your permission settings. Claude Code is a harness.\n\nThe model never touches your computer directly. By itself, it can only produce text. When it needs to act, it *asks* for a tool, for example \"read `src/index.html`\". Claude Code checks your permissions, runs the tool, and sends the result back to the model as text. The model reads the result and decides the next step. This repeated cycle is the **agentic loop**. The harness is what makes the system **agentic**: it lets the AI *do* things, not only write text.\n\nA simple test: if it generates text, it is the model. If it runs commands, edits files, or manages the conversation, it is the harness.\n\nOne harness can use different models. In Claude Code, the `/model` command lets you choose a model (haiku, sonnet, opus or fable). The harness stays the same; only the model changes.",
+  "read_more": [
+    {
+      "text": "Ch. 47 How Claude Code Works: The Agentic Loop and Tools › The model and the harness",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060300-howClaudeCodeWorks-v001.html#the-model-and-the-harness"
+    },
+    {
+      "text": "Ch. 47 How Claude Code Works: The Agentic Loop and Tools › The agentic loop",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060300-howClaudeCodeWorks-v001.html#the-agentic-loop"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Tools: how an LLM becomes an agent",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tools-how-an-llm-becomes-an-agent"
+    }
+  ]
+}

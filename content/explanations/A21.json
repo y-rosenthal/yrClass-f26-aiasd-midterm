@@ -1,0 +1,26 @@
+{
+  "q": 21,
+  "title": "Where to put an on-demand procedure",
+  "choices": {
+    "a": "Wrong. An MCP server is a program that connects Claude to an outside service, such as GitHub or a database, and gives Claude new tools for it. It is not a place for step-by-step instructions.",
+    "b": "Wrong. Claude Code loads CLAUDE.md at the start of every session in that folder. These instructions would use context space every time, even when you do not ask for the report.",
+    "c": "Wrong. The system prompt is written by the maker of the tool, not by you. You cannot put your own instructions there.",
+    "d": "Wrong. README.md describes the repository for people; GitHub shows it on the repository's home page. Claude Code does not load it automatically, so it is not a place for instructions to Claude Code.",
+    "e": "Correct. A skill holds a description, detailed instructions and scripts. Only the description is always in the context. Claude Code loads the rest only when you ask for the report, or when you run the skill with its slash command."
+  },
+  "tutorial": "A **skill** is a way to give Claude Code instructions for one kind of task. A skill is a folder with a file named `SKILL.md`. It has three kinds of content:\n\n- A **description**: what the skill does and when to use it.\n- **Detailed instructions**: the steps that Claude follows when the skill runs.\n- **Supporting files**, such as **scripts** (small programs that the skill can use) and reference documents.\n\nOnly the description is in the **context window** (Claude's working memory) all the time. When your request matches a description, Claude loads that skill's full instructions. You can also start a skill yourself: type `/` and the skill's name, for example `/grill-me`.\n\nThis matters because every extension costs some context. Long instructions that are always loaded take space, cost tokens on every message, and can push out what Claude needs for the task at hand. A skill's body costs almost nothing until you use it.\n\nCompare the places where instructions can go:\n\n| Place | When it is loaded | Good for |\n|---|---|---|\n| `CLAUDE.md` | Every session in that folder | Rules that apply to all work |\n| Skill | Only when needed, or when you type its slash command | Procedures for one kind of task |\n| MCP server | Its tools are available to Claude | Connections to outside services |\n\nA good sign that you need a skill: you paste the same instructions into the chat again and again, but only for one kind of task.",
+  "read_more": [
+    {
+      "text": "Ch. 56 Skills › What a skill is",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/070200-skills-v001.html#what-a-skill-is"
+    },
+    {
+      "text": "Ch. 56 Skills › Anatomy of a SKILL.md file",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/070200-skills-v001.html#anatomy-of-a-skill.md-file"
+    },
+    {
+      "text": "Ch. 55 Extending Claude Code: The Big Picture › The extension points at a glance",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/070100-extendingOverview-v001.html#the-extension-points-at-a-glance"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "q": 32,
+  "title": "Agentic AI tools vs. coding tools",
+  "choices": {
+    "a": "Wrong. Exact arithmetic with big numbers is a programming job. A coding tool such as Claude Code can write and run a short program that adds the numbers exactly.",
+    "b": "Wrong. Creating a git repo and uploading it to GitHub is software-development work. In class, Claude Code did exactly this for the demo website.",
+    "c": "Wrong. Finding a bug in an app's code is a core job of a coding tool. Claude Code can read the code, run it and change it.",
+    "d": "Correct. Answering email and ordering supplies are everyday tasks, not software work. Agentic AI tools focus on getting such things done, and they can do almost anything online that a person can.",
+    "e": "Wrong. Building a website from HTML, CSS and JavaScript files is software development. In class, Claude Code built a static website in this way."
+  },
+  "tutorial": "**Generative AI** makes content: a chat tool writes text, and other tools make images, music or video. **Agentic AI** *does* things with tools. It can change files on your computer, run programs, browse the web, search for information and place orders.\n\nThe course sorts AI tools into three groups:\n\n| Group | Main focus | Examples |\n|---|---|---|\n| Chat tools | Conversation in a web page or app | ChatGPT, claude.ai, Grok |\n| Coding tools | Building software | Claude Code, Codex, Cursor |\n| Agentic AI tools | Getting everyday things done | Open Claw, Hermes, Muse (Meta), Dots (OpenAI), Grokbot (xAI) |\n\nCoding tools are agentic too. Claude Code reads and edits files and runs commands on your computer. But its focus is software: writing programs, fixing bugs, using git and GitHub, and building websites.\n\nAgentic AI tools focus on everyday tasks. They can do almost anything online that a person can, such as answering email, booking meetings or ordering products. They can also change files and run programs.\n\nThe groups change over time. For example, the claude.ai web interface now has some Claude Code features. To pick the best tool, look at the goal of the task. If the result is software, a coding tool is the best fit. If the result is an everyday job done for you, an agentic AI tool is the best fit.",
+  "read_more": [
+    {
+      "text": "Ch. 11 AI-Assisted Development: From Chatbots to Coding Agents › What makes a tool an agent",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010400-aiAssistedDevelopment-v001.html#what-makes-a-tool-an-agent"
+    },
+    {
+      "text": "Ch. 12 The AI Coding Tool Landscape (Fall 2026) › Categories of AI coding tools",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010500-aiCodingToolsLandscape-v001.html#categories-of-ai-coding-tools"
+    },
+    {
+      "text": "Ch. 7 What AI Can Do Today › Acting in the world",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#acting-in-the-world"
+    }
+  ]
+}

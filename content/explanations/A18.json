@@ -1,0 +1,17 @@
+{
+  "q": 18,
+  "title": "Distilling an AI model",
+  "choices": {
+    "a": "Wrong. This describes compaction, which is what /compact does in Claude Code. It changes one conversation, not a model.",
+    "b": "Correct. To distill a model, you collect many answers from that model and train a new model on them. The new model learns to imitate the first one.",
+    "c": "Wrong. This describes cleaning the training data. It does not copy anything from another model, so it is not distillation.",
+    "d": "Wrong. This describes making a model's weights smaller and less exact (often called quantization). It changes one model's size; it does not train a new model on another model's answers."
+  },
+  "tutorial": "**Distillation** means training a model on another model's answers, so that it learns to imitate that model. The steps are simple:\n\n1. Send a very large number of questions to a strong model.\n2. Save its answers.\n3. Train a new model on those questions and answers.\n\nThe new model does not get the first model's weights. It only learns to give answers like the first model.\n\nAI labs distill their own models, and that is allowed. Doing it to a competitor is different. A lab that opens fake accounts with a competitor to collect answers breaks the competitor's terms of service.\n\nIn 2026, Anthropic accused Chinese AI labs of distillation attacks on Claude. In February, it accused three labs (DeepSeek, Moonshot and MiniMax) of using about 24,000 fraudulent accounts for more than 16 million exchanges with Claude. In September, it named seven China-based labs. These are accusations that the labs have not answered in public. Not everyone calls it theft: Nvidia's CEO said \"That's called competition.\"\n\nA practical point for users: an unofficial reseller of cheap AI access may log or pass on what you type. Buy AI services through official channels.\n\nDo not confuse distillation with these other ideas:\n\n- **Compaction** (`/compact`): a summary replaces the older part of a conversation.\n- **Cleaning the training data**: removing material before training.\n- **Shrinking the weights**: storing a model's numbers less exactly, so the same model fits on smaller hardware.",
+  "read_more": [
+    {
+      "text": "Ch. 4 More AI Security Incidents: Hijacked Tools, Leaks, and Deepfakes (2026) › Copying a model: “distillation”",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005250-moreAiSecurityIncidents-v001.html#copying-a-model-distillation"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+project:
+  type: book
+  output-dir: docs
+  resources:
+    - exams/*.pdf
+    - exams/*.docx
+
+book:
+  title: "Midterm Exam, Fall 2026: Questions Explained"
+  subtitle: "AI Assisted Software Development"
+  author: "Prof. Y. Rosenthal"
+  search: true
+  chapters:
+    - index.qmd
+    - the-exams.qmd
+    - answers-all-versions.qmd
+    - part: "Version A, explained"
+      chapters:
+        - questions-01-09.qmd
+        - questions-10-18.qmd
+        - questions-19-27.qmd
+        - questions-28-36.qmd
+        - questions-37-45.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    include-in-header:
+      - text: |
+          <meta name="robots" content="noindex, nofollow">

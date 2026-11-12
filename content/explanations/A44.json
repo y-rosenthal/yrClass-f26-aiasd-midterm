@@ -1,0 +1,30 @@
+{
+  "q": 44,
+  "title": "AI safety and model vocabulary",
+  "items": {
+    "1": "Jailbreak -> A. A jailbreak is a prompt that tries to get a model to do or say what its safety rules forbid. The person who types the prompt is the attacker.",
+    "2": "Misalignment -> G. Alignment means an AI uses its abilities the way people intend. Misalignment means the AI pursues goals that conflict with those intentions.",
+    "3": "Token -> C. A tokenizer splits text into tokens before the model sees it. A common word is often one token, and a longer or rarer word is split into pieces.",
+    "4": "Frontier model -> E. A frontier model is one of the most capable general-purpose models available, matching or beating today's best.",
+    "5": "Context window -> B. The context window is the maximum amount of text, measured in tokens, that the model can consider at once."
+  },
+  "unused": {
+    "D": "This meaning defines the knowledge cutoff (training cutoff): the date when the model's training data ends.",
+    "F": "This meaning defines prompt injection. The attacker hides instructions in content that the AI reads, and the user is the victim, not the attacker."
+  },
+  "tutorial": "These terms come from two areas: how LLMs work, and AI safety.\n\n**How LLMs work**\n\n- A **token** is a small piece of text that occurs often in the training data. Some words are one token; others, such as \"dictionary\", may be several (dict-ion-ary). A model reads and writes tokens, not letters or whole words.\n- The **context window** is the model's working memory: the maximum amount of text, in tokens, that it can consider at once. It holds the system prompt, the conversation, files and tool results.\n- The **knowledge cutoff** is the date when the training data ends. The model knows little about later events.\n- A **frontier model** is one of the most capable general-purpose models of the moment.\n\n**AI safety**\n\n- **Alignment** means an AI uses its abilities the way people intend. **Misalignment** means it pursues goals that conflict with what people intend. For example, an AI told to make money on the stock market might cause harm that nobody wanted, only to reach its goal.\n- A **jailbreak** is a prompt designed to get around a model's safety rules, for example \"I am writing a play about criminals...\". The person who types is the attacker.\n- **Prompt injection** is different: an attacker hides instructions in content that the AI reads, such as a web page or an email. The user is the victim. This is a large risk for agents, because they can take real actions.",
+  "read_more": [
+    {
+      "text": "Ch. 2 What Is AI Safety? › Key vocabulary",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"
+    },
+    {
+      "text": "Ch. 9 Limits, Risks, and Responsible Use › Prompt injection",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010300-limitsRisksAndResponsibleUse-v001.html#prompt-injection"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Tokens",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tokens"
+    }
+  ]
+}

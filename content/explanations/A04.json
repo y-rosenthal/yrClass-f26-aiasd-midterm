@@ -1,0 +1,19 @@
+{
+  "q": 4,
+  "title": "Recursive self-improvement (RSI)",
+  "choices": {
+    "a": "Correct. In RSI, AI creates the next version of AI. That version is smarter and builds an even better one, and the cycle repeats. People may no longer understand or control the result.",
+    "b": "Wrong. This describes a reasoning (thinking) model, which works through intermediate steps before it gives its final answer. The model itself does not become more capable.",
+    "c": "Wrong. This describes an app's memory feature, which adds saved notes from earlier chats to the context window. The model's weights do not change, so the AI does not improve itself.",
+    "d": "Wrong. This describes distillation: training a model on another model's answers so that it learns to imitate it. Here a model copies another model. No AI builds a more capable next version."
+  },
+  "tutorial": "**Recursive self-improvement (RSI)** is the point where AI starts to create the next version of AI. *Recursive* means that the process repeats on its own result:\n\n1. AI does much of the work of building a more capable AI.\n2. That new AI builds an even more capable AI.\n3. The cycle repeats, and each version is smarter than the last.\n\nThis is one reason why AI companies care so much about coding. A model that can write programs can do anything a program can do. The software that trains and runs AI models is also made of programs. So a model that codes well can help build the next model.\n\nRSI is a major worry in **AI safety**. If each new version is built mostly by AI, people may no longer understand what the AI can do. They may also lose **control**: the ability to steer, correct, or shut down an AI.\n\nDo not confuse RSI with other ideas that also involve a model and its answers:\n\n| Term | What it means |\n|---|---|\n| reasoning (thinking) model | writes out intermediate steps before its final answer |\n| memory feature | an app adds saved notes from earlier chats to the context window |\n| distillation | training a model on another model's answers, so that it imitates that model |\n| RSI | AI builds the next, more capable AI, again and again |\n\nIn the first three, no AI builds a better AI. Only RSI describes AI that improves the next generation of AI.",
+  "read_more": [
+    {"text": "Ch. 2 What Is AI Safety? › Key vocabulary",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"},
+    {"text": "Ch. 4 More AI Security Incidents: Hijacked Tools, Leaks, and Deepfakes (2026) › Copying a model: “distillation”",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/005250-moreAiSecurityIncidents-v001.html#copying-a-model-distillation"},
+    {"text": "Ch. 8 How Large Language Models Work › Reasoning (“thinking”) models and effort",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#reasoning-thinking-models-and-effort"}
+  ]
+}

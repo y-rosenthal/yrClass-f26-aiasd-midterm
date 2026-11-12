@@ -1,0 +1,22 @@
+{
+  "q": 26,
+  "title": "How a tokenizer splits text",
+  "choices": {
+    "a": "Wrong. A short sentence is not one token. Tokens are common sequences of characters from the training data, and a whole sentence is far too rare to be one token.",
+    "b": "Wrong. Most tokens are longer than one letter. Some tokens are a single letter or symbol, but a tokenizer uses longer tokens wherever it can.",
+    "c": "Wrong. A word does not always become one token. A common word is often one token, but a long or rare word is split into several pieces.",
+    "d": "Correct. A short, common word such as \"are\" is likely to be one token. A longer or rarer word can be split into several tokens. The exact split depends on the tokenizer.",
+    "e": "Wrong. Different models can use different tokenizers and different sets of tokens. The same text can become different tokens, and a different number of tokens, on different models."
+  },
+  "tutorial": "LLMs do not read letters or whole words. Before a model sees your text, a program called a **tokenizer** splits the text into **tokens**.\n\nA **token** is a sequence of characters that occurs often in the training data. Characters include letters, spaces, digits and punctuation. So:\n\n- A common word is often one token.\n- A longer or rarer word is split into several tokens. For example, \"dictionary\" might be three tokens: `dict-ion-ary`.\n- Some tokens are part of a word, such as `'s`. Some tokens are a single letter or symbol.\n- Spaces and punctuation count too.\n\nFor example, a tokenizer might split \"Dinosaurs were dangerous!\" like this (dashes show where one token ends and the next starts): `Dino-saur-s- -we-re- d-anger-ous-!`\n\nEach model has a fixed set of tokens, called its **vocabulary**. Different models can use different vocabularies. Frontier models today can have about 200,000 tokens in their vocabulary; smaller models might have about 50,000. So the same text can become a different number of tokens on different models.\n\nTokens matter because:\n\n- An LLM generates the next **token**, not the next word.\n- **Prices** and **limits** (such as the size of the context window) are counted in tokens.\n- Some tasks that are easy for people, such as counting letters in a word, are hard for a model that sees tokens instead of letters.",
+  "read_more": [
+    {
+      "text": "Ch. 8 How Large Language Models Work › Tokens",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tokens"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › An LLM predicts the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#an-llm-predicts-the-next-token"
+    }
+  ]
+}

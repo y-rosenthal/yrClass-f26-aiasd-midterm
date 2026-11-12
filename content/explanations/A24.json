@@ -1,0 +1,26 @@
+{
+  "q": 24,
+  "title": "Input tokens and output tokens",
+  "choices": {
+    "a": "Correct. You pay for input tokens and for output tokens, and output tokens generally cost more. With the same number of each, the reply costs more.",
+    "b": "Wrong. This choice swaps the two prices. Input tokens (what you send) are generally cheaper than output tokens (what the model replies).",
+    "c": "Wrong. Input tokens are not free. You pay for the tokens you send and for the tokens the model replies.",
+    "d": "Wrong. Charges come from the number of tokens, not the number of messages. A long message costs more than a short one.",
+    "e": "Wrong. Tokens do not all have the same price. Output tokens are generally more expensive than input tokens, and prices also differ from model to model."
+  },
+  "tutorial": "A **token** is a common sequence of characters, such as a short word or part of a longer word. Models read and write text as tokens, and the cost of using a model is counted in tokens.\n\nThere are two kinds:\n\n- **Input tokens**: the tokens in the text that you *send* to the model.\n- **Output tokens**: the tokens in the text that the model *replies* to you. The model's thinking tokens are billed like output tokens.\n\nOutput tokens are generally more expensive than input tokens. For example, in the course's October 2026 price list, Opus 5.5 cost $4 per million input tokens and $20 per million output tokens. Output cost five times as much as input for every Claude model in that list.\n\nThere are two ways to pay:\n\n- With the **API** (\"pay as you go\"), you pay for each token that you use.\n- With a **subscription** (such as Pro or Max), you pay a fixed monthly price. Your plan's usage limits are still based on how many tokens you use. When you reach a limit, you wait until it resets.\n\nInput tokens add up quickly in a long conversation. With every new message, Claude Code sends the whole conversation again. The part that the server already processed is cached, which makes it much cheaper to read again, but it is still input. This is one reason to keep conversations short with `/clear`, `/compact` and `/rewind`.",
+  "read_more": [
+    {
+      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › Two ways to pay: subscription or API",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#two-ways-to-pay-subscription-or-api"
+    },
+    {
+      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › Plans and prices (a dated snapshot)",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#plans-and-prices-a-dated-snapshot"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Tokens",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#tokens"
+    }
+  ]
+}

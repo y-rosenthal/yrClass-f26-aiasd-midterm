@@ -1,0 +1,21 @@
+{
+  "q": 43,
+  "title": "CLI vs. GUI",
+  "choices": {
+    "a": "Wrong. Neither a CLI nor a GUI needs the Internet in general; both control your own computer. Some CLI tools need the Internet, such as Claude Code, which talks to a model online, but a command that moves a file works offline.",
+    "b": "Wrong. This swaps the two terms. Typing a command in a terminal is using a CLI, and dragging an icon is using a GUI.",
+    "c": "Correct. Typing a command in a terminal is using a CLI (command-line interface), and dragging an icon is using a GUI (graphical user interface). Both can move the file.",
+    "d": "Wrong. A CLI can control all parts of the computer, not only files. Most jobs can be done with either a CLI or a GUI."
+  },
+  "tutorial": "You can control a computer in two ways.\n\n- A **GUI** (graphical user interface) is the usual way. You use windows, icons and menus, and you click and drag with a mouse or trackpad.\n- A **CLI** (command-line interface) is a text conversation with the computer. You type a **command** in a **terminal** program and press `Enter`, and the computer answers with text.\n\nFor example, this Bash command moves the file `todo.txt` from Joe's `finance` folder to his `personal` folder:\n\n`mv /Users/joe/finance/todo.txt /Users/joe/personal`\n\n- `mv` is the \"move\" command.\n- `/Users/joe/finance/todo.txt` is the full path to the file.\n- `/Users/joe/personal` is the folder that the file moves to.\n\nDragging the file's icon from one folder to the other in Finder or File Explorer does the same job with a GUI.\n\nA CLI can control all parts of the computer, not only files. Neither way needs the Internet, unless the program that you use works online.\n\nAI coding tools such as Claude Code mostly use the CLI. Commands are text, which an LLM knows very well. Controlling a GUI is now possible for AI, but it usually takes more tokens than doing the same job with commands.",
+  "read_more": [
+    {
+      "text": "Ch. 13 What Is the Command Line? › Two ways to talk to a computer: GUI and CLI",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/020100-whatIsTheCommandLine-v001.html#two-ways-to-talk-to-a-computer-gui-and-cli"
+    },
+    {
+      "text": "Ch. 13 What Is the Command Line? › The command line in the age of AI",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/020100-whatIsTheCommandLine-v001.html#the-command-line-in-the-age-of-ai"
+    }
+  ]
+}

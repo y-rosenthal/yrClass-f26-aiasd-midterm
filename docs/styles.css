@@ -1,0 +1,68 @@
+/* The question text */
+.stem {
+  font-size: 1.1em;
+  font-weight: 500;
+  margin: 0.5em 0 0.8em 0;
+}
+
+/* One answer choice, with its explanation below it */
+.choice {
+  margin: 0 0 0.7em 0;
+  padding: 0.35em 0.7em;
+  border-left: 3px solid #d0d0d0;
+}
+.choice > p:first-child {
+  margin-bottom: 0.15em;
+}
+.choice .letter {
+  font-weight: 600;
+  margin-right: 0.25em;
+}
+
+/* The correct answer: larger and bold */
+.choice.correct {
+  border-left: 4px solid #1a7f37;
+  background: rgba(26, 127, 55, 0.07);
+}
+.choice.correct > p:first-child {
+  font-size: 1.2em;
+  font-weight: 700;
+}
+.correct-tag {
+  font-size: 0.8em;
+  font-weight: 600;
+  color: #1a7f37;
+  margin-left: 0.3em;
+}
+.unused-tag {
+  font-size: 0.85em;
+  color: #6c757d;
+}
+
+/* The explanation of a choice: smaller and italic */
+.why,
+.why p {
+  font-size: 0.88em;
+  font-style: italic;
+  color: #444;
+  margin: 0;
+}
+
+/* "In the other versions ..." */
+.other-versions {
+  display: block;
+  font-size: 0.85em;
+  color: #6c757d;
+  margin: 0.4em 0 0.6em 0;
+}
+
+/* Space between questions */
+h2 {
+  margin-top: 2.2em;
+  padding-top: 0.6em;
+  border-top: 1px solid #e5e5e5;
+}
+
+@media (prefers-color-scheme: dark) {
+  .why, .why p { color: inherit; }
+}

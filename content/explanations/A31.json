@@ -1,0 +1,21 @@
+{
+  "q": 31,
+  "title": "What a static website can do",
+  "choices": {
+    "a": "Wrong. The site must save each comment and show it to later visitors. That needs a database and server-side code, and a static website has neither.",
+    "b": "Correct. The menu, hours and address are the same for every visitor. Only the owner changes them, by editing the files, so HTML, CSS and JavaScript files are enough.",
+    "c": "Wrong. Accounts and logins need a way to know who is asking, and saved favorites need data storage for each user. A static website has no users, no logins and no data storage.",
+    "d": "Wrong. Recommendations based on past purchases need a stored record of what each visitor bought. A static website cannot store data or tell one visitor from another."
+  },
+  "tutorial": "A **static website** is a set of files that were prepared ahead of time: HTML, CSS and JavaScript. The web server sends the same files to every visitor. You can even open a static website on your own computer by double-clicking its main `.html` file. The olympics demo site from class and this book are static websites.\n\nOn a static website:\n\n- every visitor sees the same information;\n- only the owner changes what the site shows, by changing the files;\n- there are no users and no logins;\n- nothing that a visitor does is stored.\n\nA **dynamic website** runs code on the server for each request. That code builds a page for *that* user at *that* moment, for example your order history or your bank balance. A dynamic website needs three things that a static website does not have:\n\n- **server-side code** (code that runs on the server, not in the browser);\n- a **database** (a program that stores data and gives it back when asked);\n- a way to know **who is asking** (logging in).\n\nA static website can still be interactive. JavaScript can open menus or show photos when you click, because this happens in your browser and nothing is saved.\n\nTo decide if a site can be static, ask two questions. Does the site need to remember something that a visitor did? Does it show different content to different visitors? If the answer to both is no, a static website is enough.",
+  "read_more": [
+    {
+      "text": "Ch. 36 What Happens on the Server: Back Ends, Databases, and APIs › Static vs. dynamic websites",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040400-whatHappensOnTheServer-v001.html#static-vs.-dynamic-websites"
+    },
+    {
+      "text": "Ch. 36 What Happens on the Server: Back Ends, Databases, and APIs › Databases",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040400-whatHappensOnTheServer-v001.html#databases"
+    }
+  ]
+}

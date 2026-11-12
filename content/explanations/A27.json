@@ -1,0 +1,26 @@
+{
+  "q": 27,
+  "title": "Client and server roles",
+  "choices": {
+    "a": "Wrong. The web server program does not store the app's data. The database server stores the data and provides it when asked.",
+    "b": "Wrong. In this setup, the browser asks the web server, and the web server asks the database server. The browser does not talk to the database directly.",
+    "c": "Wrong. A program can be a server in one request and a client in another. The web server program provides pages to the browser, but it requests data from the database server.",
+    "d": "Correct. A client is the program that requests data. In the second request, the web server program asks the database server for data, so it is a client of the database server.",
+    "e": "Wrong. The web server program does not show anything to the user. The browser shows the page; the web server program only sends it."
+  },
+  "tutorial": "The words **client** and **server** describe roles in a request:\n\n- A **client** is a program that *requests* data.\n- A **server** is a program that *provides* data.\n\n\"Server\" can also mean the computer that runs a server program; the context tells you which.\n\nA web application usually has three programs:\n\n1. The **browser** (Chrome, Safari, ...) is a client. It asks the web server for a page.\n2. The **web server program** sends HTML, CSS and JavaScript to the browser. To build a page, it often needs data, so it asks the database server for it, in the **SQL** language.\n3. The **database server program** (for example PostgreSQL) stores the data and provides it.\n\n```\nbrowser  --request-->  web server program  --SQL request-->  database server program\n(client)               (server, then client)                  (server)\n```\n\nSo one program can have two roles. The web server program is a **server** to the browser and a **client** of the database server. The role depends on which request you look at.\n\nAll three programs can run on one computer, or on different computers. For example, while you develop an app, the web server can run on your own computer at `localhost:3000`.\n\nThe same idea applies in the course's task app. Supabase is a server to the browser. The Edge Functions on Supabase are in turn clients of OpenAI and Stripe.",
+  "read_more": [
+    {
+      "text": "Ch. 33 Browsers, Web Servers, and HTTP › Clients and servers",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040100-browsersAndWebServers-v001.html#clients-and-servers"
+    },
+    {
+      "text": "Ch. 36 What Happens on the Server: Back Ends, Databases, and APIs › Databases",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040400-whatHappensOnTheServer-v001.html#databases"
+    },
+    {
+      "text": "Ch. 71 Project Architecture › Project Architecture",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"
+    }
+  ]
+}

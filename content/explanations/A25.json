@@ -1,0 +1,21 @@
+{
+  "q": 25,
+  "title": "Private data and local models",
+  "choices": {
+    "a": "Correct. A local model runs on the hospital's own computers, so the records never go to an outside company. The tradeoff is that a local model is slower and less capable than a frontier model.",
+    "b": "Wrong. Frontier models need very expensive hardware, far more than a laptop has. A laptop can run only much smaller models, and those are less capable.",
+    "c": "Wrong. With an online model, the records still go to the outside company. A request not to read them does not change that, and it breaks the hospital's rule.",
+    "d": "Wrong. The model must be able to read the records to summarize them, so the company must receive them in a form it can read. The records still go to the outside company."
+  },
+  "tutorial": "There are two ways to run an AI model.\n\nA **hosted** (cloud) model runs on the AI company's computers. You use it through the company's app or API. Every prompt you send, including any data in it, goes to that company.\n\nA **local** model runs on your own hardware. Your data stays on your machines.\n\n| | Hosted (cloud) model | Local model |\n|---|---|---|\n| Where it runs | The provider's data centers | Your own computers |\n| Your data | Sent to the provider | Stays with you |\n| Capability | The most capable models | Smaller models: useful, but usually behind |\n| Speed | Fast | Slower |\n| Setup | None | You install and update everything |\n\n**Frontier models** are the most capable models. They are very expensive to train and to run. They need hardware far beyond what a person can run at home. Much smaller models can run on a laptop. Larger organizations can run bigger models on their own servers, but these are still usually behind the frontier.\n\nTo run a model locally, you need its trained **weights**. An **open-weight** model is one whose weights are published, so anyone can download it and run it. Free apps such as Ollama and LM Studio do this.\n\nA local model is the right choice when privacy matters: patient data, student data, financial data, or a company's private data. The tradeoff is clear: you keep control of the data, but you accept a slower and less capable model.",
+  "read_more": [
+    {
+      "text": "Ch. 9 Limits, Risks, and Responsible Use › Local models vs. cloud models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010300-limitsRisksAndResponsibleUse-v001.html#local-models-vs.-cloud-models"
+    },
+    {
+      "text": "Ch. 7 What AI Can Do Today › Open-weight vs. closed models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#open-weight-vs.-closed-models"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "q": 15,
+  "title": "Why LLMs work well with Markdown",
+  "choices": {
+    "a": "Wrong. Markdown is not a programming language, and it is not only for LLMs. It is a simple notation for formatting plain text, and any person can read it.",
+    "b": "Wrong. A Markdown file contains only text. It can link to an image, but the picture itself is a separate file. Pictures and charts are what make Word and Excel files harder for an LLM.",
+    "c": "Correct. A Markdown file is plain text: only characters that you can type on a keyboard. An LLM works with text, so it can read and write Markdown directly.",
+    "d": "Wrong. Anthropic did not invent Markdown. It is a general format that existed long before Claude; for example, README.md files on GitHub use it.",
+    "e": "Wrong. Markdown files are not encrypted. They are plain text that anyone can open and read in any text editor. An encrypted file cannot be read without its key."
+  },
+  "tutorial": "**Plain text** is a file that contains only characters you can type on your keyboard: letters, digits, spaces and symbols. You can open it in any text editor and read it.\n\n**Markdown** (files that end in `.md`) is plain text with a simple notation for formatting, called **markup**:\n\n| You type | You get |\n|---|---|\n| `# Heading` | a big heading (`##` to `######` for smaller ones) |\n| `- item` | a bullet point |\n| `1. item` | a numbered list item |\n| `*text*` | italics |\n| `**text**` | bold |\n| `[my site](https://example.com)` | a link |\n| `![photo](cat.png)` | a picture (a link to a separate image file) |\n\nThe file stays readable even before it is formatted. A person who sees `**bold**` understands it.\n\nAn LLM works with text, as a sequence of **tokens**. A Markdown file is already text, so the LLM reads it directly. That is why Markdown is used so much in AI work: `CLAUDE.md`, `AGENTS.md`, skill files, and `README.md` files on GitHub are all Markdown.\n\nA Word or Excel file is different. Besides the text, it can contain pictures, colors, fonts, charts and other formatting, stored in a file format that is not plain text. The LLM does not process these files directly.\n\nSo, when you write instructions or notes for an AI tool, use a plain-text format such as Markdown.",
+  "read_more": [
+    {"text": "Ch. 31 Putting Your Repository on GitHub › README.md and Markdown",
+     "url": "https://y-rosenthal.github.io/aiasd-in-progress/030600-githubRemotes-v001.html#readme.md-and-markdown"}
+  ]
+}

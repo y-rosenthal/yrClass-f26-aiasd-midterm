@@ -1,0 +1,21 @@
+{
+  "q": 38,
+  "title": "How an LLM picks the next word",
+  "choices": {
+    "a": "Wrong. This is true only when the temperature is set to 0; then the model (almost) always picks the most probable word. With normal settings, the model picks from a probability distribution, so the most probable word is not always the one that is picked.",
+    "b": "Correct. The model gives every possible word a probability and then picks from that distribution. \"Store\" has the highest chance, but a less likely word such as \"beach\" is sometimes picked, in the same way that 7 is the most likely roll of two dice but other rolls also happen.",
+    "c": "Wrong. The model does not copy sentences from its training data. It gives a probability to every word that it knows, so even an unusual word such as \"purple\" (\"the purple room\") can be picked.",
+    "d": "Wrong. Earlier text changes the probabilities. After a story about clowns, \"circus\" can become the most probable next word."
+  },
+  "tutorial": "A **large language model (LLM)** does one basic thing: it reads text and predicts what comes next. It does not work with whole words but with **tokens**, small pieces of text. To make it simple, this explanation says \"word\".\n\nFor \"The boy went to the ___\", the model gives a probability to every word that it knows. The probabilities add up to 1. Most words get a very small probability, but some get more, for example:\n\n- \"store\": highest\n- \"school\": lower\n- \"beach\": lower still\n- \"purple\": very low, but not zero (\"the purple room\")\n\nThis list of words and probabilities is a **probability distribution**. The software then **samples** from it: it usually picks a likely word, but not always the most likely one. That is why the same question asked twice can get two different answers. An AI model is **non-deterministic**: the same input does not always give the same output.\n\n**Temperature** is a setting that controls how random the pick is. At temperature 0, the model (almost) always picks the most probable word. At temperature 1, it picks according to the learned probabilities. Chat apps choose this setting for you.\n\nThe **context** (the text before the blank) changes the probabilities. After a story about clowns, \"circus\" can become the most probable word.",
+  "read_more": [
+    {
+      "text": "Ch. 8 How Large Language Models Work › An LLM predicts the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#an-llm-predicts-the-next-token"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Choosing the next token",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#choosing-the-next-token"
+    }
+  ]
+}
