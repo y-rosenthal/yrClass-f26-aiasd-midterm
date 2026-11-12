@@ -14,13 +14,7 @@ book:
     - index.qmd
     - the-exams.qmd
     - answers-all-versions.qmd
-    - part: "Version A, explained"
-      chapters:
-        - questions-01-09.qmd
-        - questions-10-18.qmd
-        - questions-19-27.qmd
-        - questions-28-36.qmd
-        - questions-37-45.qmd
+    - version-a-explained.qmd
 
 format:
   html:

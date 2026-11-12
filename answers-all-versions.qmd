@@ -14,51 +14,51 @@ Each row is one question. The link goes to its explanation (written for Version 
 
 | Version A | Version B | Version C | Question | Explanation |
 |:---|:---|:---|------|------|
-| 1: **a** | 42: **e** | 28: **c** | The task app is written with Next.js, which is a framework. What is … | [Question 1](questions-01-09.qmd#q1) |
-| 2: **c** | 32: **b** | 22: **c** | A startup is choosing a programming language for a new product. What … | [Question 2](questions-01-09.qmd#q2) |
-| 3: **b** | 33: **d** | 24: **a** | Which part of the task app is its front end? | [Question 3](questions-01-09.qmd#q3) |
-| 4: **a** | 5: **d** | 34: **d** | What is recursive self-improvement (RSI)? | [Question 4](questions-01-09.qmd#q4) |
-| 5: **c** | 40: **c** | 23: **a** | How do strong open-weight models affect the business of Anthropic … | [Question 5](questions-01-09.qmd#q5) |
-| 6: **a** | 7: **c** | 40: **b** | Why is a prompt cache useful? | [Question 6](questions-01-09.qmd#q6) |
-| 7: **d** | 29: **d** | 12: **c** | Which choice correctly describes both an LLM and an agent? | [Question 7](questions-01-09.qmd#q7) |
-| 8: **c** | 26: **d** | 7: **d** | Which is an example of agentic AI, not just generative AI? | [Question 8](questions-01-09.qmd#q8) |
-| 9: **d** | 35: **c** | 32: **c** | A student on a paid Claude plan is suddenly blocked from using … | [Question 9](questions-01-09.qmd#q9) |
-| 10: **d** | 18: **b** | 27: **a** | Which choice correctly describes both AGI and superintelligence? | [Question 10](questions-10-18.qmd#q10) |
-| 11: **d** | 39: **c** | 5: **c** | Why have AI companies such as Anthropic and Google worked so hard to … | [Question 11](questions-10-18.qmd#q11) |
-| 12: **c** | 23: **b** | 6: **a** | Which of these takes up space in Claude Code's context window, even … | [Question 12](questions-10-18.qmd#q12) |
-| 13: **d** | 34: **d** | 13: **b** | Which of the following are in Claude Code's context window for a … | [Question 13](questions-10-18.qmd#q13) |
-| 14: **b** | 24: **a** | 41: **e** | After a very long Claude Code session, Claude starts ignoring a … | [Question 14](questions-10-18.qmd#q14) |
-| 15: **c** | 27: **d** | 33: **d** | Why do LLMs work so well with Markdown files, compared with Word or … | [Question 15](questions-10-18.qmd#q15) |
-| 16: **d** | 22: **b** | 14: **c** | During training, a model reads a sentence and predicts the next … | [Question 16](questions-10-18.qmd#q16) |
-| 17: **d** | 25: **a** | 15: **b** | Claude Code uses the Claude Opus 5.5 model. Which describes their … | [Question 17](questions-10-18.qmd#q17) |
-| 18: **b** | 1: **a** | 17: **d** | What does it mean to distill an AI model? | [Question 18](questions-10-18.qmd#q18) |
-| 19: **a** | 9: **d** | 3: **c** | You need the exact sum of two 100-digit numbers. You try two ways: … | [Question 19](questions-19-27.qmd#q19) |
-| 20: **b** | 19: **c** | 26: **b** | Claude Code reads a web page while it helps you. The page has white … | [Question 20](questions-19-27.qmd#q20) |
-| 21: **e** | 2: **b** | 1: **c** | You have step-by-step instructions, plus a small program, for … | [Question 21](questions-19-27.qmd#q21) |
-| 22: **c** | 12: **a** | 29: **b** | Our static website's repo was already on GitHub. Then we turned on … | [Question 22](questions-19-27.qmd#q22) |
-| 23: **a** | 37: **d** | 38: **d** | Why is it risky to give a very powerful AI a goal such as "Make as … | [Question 23](questions-19-27.qmd#q23) |
-| 24: **a** | 11: **a** | 36: **a** | You send Claude a question that is 1,000 tokens long, and it replies … | [Question 24](questions-19-27.qmd#q24) |
-| 25: **a** | 38: **b** | 37: **b** | A hospital wants AI to summarize patient records, but it must not … | [Question 25](questions-19-27.qmd#q25) |
-| 26: **d** | 43: **e** | 20: **e** | A tokenizer splits the text "Elephants are enormous." into tokens. … | [Question 26](questions-19-27.qmd#q26) |
-| 27: **d** | 8: **b** | 8: **a** | A browser asks a web server for a page. To build the page, the web … | [Question 27](questions-19-27.qmd#q27) |
-| 28: **a** | 16: **a** | 21: **b** | What is the difference between /compact and /clear in Claude Code? | [Question 28](questions-28-36.qmd#q28) |
-| 29: **e** | 36: **c** | 31: **d** | A bank wants its AI to stick closely to the most probable words, so … | [Question 29](questions-28-36.qmd#q29) |
-| 30: **c** | 41: **d** | 9: **b** | You want Claude Code to follow a rule every time it works on your … | [Question 30](questions-28-36.qmd#q30) |
-| 31: **b** | 13: **a** | 43: **a** | Which of these could be built as a static website (only HTML, CSS … | [Question 31](questions-28-36.qmd#q31) |
-| 32: **d** | 14: **a** | 4: **b** | Which task is the best fit for an agentic AI tool, such as Muse, and … | [Question 32](questions-28-36.qmd#q32) |
-| 33: **b** | 3: **d** | 11: **d** | A Mac user, a Linux user and a Windows user all want to use the Bash … | [Question 33](questions-28-36.qmd#q33) |
-| 34: **a** | 4: **c** | 42: **d** | Three students work together on the same project. What role does … | [Question 34](questions-28-36.qmd#q34) |
-| 35: **e** | 30: **c** | 19: **e** | What is Vercel's job in the task app's architecture? | [Question 35](questions-28-36.qmd#q35) |
-| 36: **e** | 15: **c** | 35: **c** | Model X has a few billion parameters. Model Y has over a trillion. … | [Question 36](questions-28-36.qmd#q36) |
-| 37: **b** | 20: **a** | 30: **c** | A web page has (1) headings, paragraphs and a bullet list; (2) its … | [Question 37](questions-37-45.qmd#q37) |
-| 38: **b** | 17: **b** | 16: **a** | An LLM is completing "The boy went to the ___". Suppose "store" is … | [Question 38](questions-37-45.qmd#q38) |
-| 39: **c** | 6: **e** | 39: **e** | What is the /rewind command in Claude Code used for? | [Question 39](questions-37-45.qmd#q39) |
-| 40: **c** | 10: **b** | 2: **c** | What is the significance of a model's training cutoff date? | [Question 40](questions-37-45.qmd#q40) |
-| 41: **b** | 21: **e** | 18: **d** | In Claude Code you have two jobs: renaming 50 files, and redesigning … | [Question 41](questions-37-45.qmd#q41) |
-| 42: **a** | 28: **c** | 25: **b** | Your project's code worked last week, but today it is broken. How … | [Question 42](questions-37-45.qmd#q42) |
-| 43: **c** | 31: **c** | 10: **a** | You move a file to another folder by typing a command in a terminal. … | [Question 43](questions-37-45.qmd#q43) |
-| 44: **1A, 2G, 3C, 4E, 5B** | 45: **1A, 2C, 3G, 4B, 5D** | 45: **1F, 2D, 3B, 4G, 5E** | Match each term with its meaning. Two meanings are not used. (10 … | [Question 44](questions-37-45.qmd#q44) |
-| 45: **1B, 2C, 3A, 4E, 5F** | 44: **1F, 2C, 3A, 4D, 5B** | 44: **1B, 2F, 3D, 4E, 5C** | Match each part of the task app's tech stack with its job. One job … | [Question 45](questions-37-45.qmd#q45) |
+| 1: **a** | 42: **e** | 28: **c** | The task app is written with Next.js, which is a framework. What is … | [Question 1](version-a-explained.qmd#q1) |
+| 2: **c** | 32: **b** | 22: **c** | A startup is choosing a programming language for a new product. What … | [Question 2](version-a-explained.qmd#q2) |
+| 3: **b** | 33: **d** | 24: **a** | Which part of the task app is its front end? | [Question 3](version-a-explained.qmd#q3) |
+| 4: **a** | 5: **d** | 34: **d** | What is recursive self-improvement (RSI)? | [Question 4](version-a-explained.qmd#q4) |
+| 5: **c** | 40: **c** | 23: **a** | How do strong open-weight models affect the business of Anthropic … | [Question 5](version-a-explained.qmd#q5) |
+| 6: **a** | 7: **c** | 40: **b** | Why is a prompt cache useful? | [Question 6](version-a-explained.qmd#q6) |
+| 7: **d** | 29: **d** | 12: **c** | Which choice correctly describes both an LLM and an agent? | [Question 7](version-a-explained.qmd#q7) |
+| 8: **c** | 26: **d** | 7: **d** | Which is an example of agentic AI, not just generative AI? | [Question 8](version-a-explained.qmd#q8) |
+| 9: **d** | 35: **c** | 32: **c** | A student on a paid Claude plan is suddenly blocked from using … | [Question 9](version-a-explained.qmd#q9) |
+| 10: **d** | 18: **b** | 27: **a** | Which choice correctly describes both AGI and superintelligence? | [Question 10](version-a-explained.qmd#q10) |
+| 11: **d** | 39: **c** | 5: **c** | Why have AI companies such as Anthropic and Google worked so hard to … | [Question 11](version-a-explained.qmd#q11) |
+| 12: **c** | 23: **b** | 6: **a** | Which of these takes up space in Claude Code's context window, even … | [Question 12](version-a-explained.qmd#q12) |
+| 13: **d** | 34: **d** | 13: **b** | Which of the following are in Claude Code's context window for a … | [Question 13](version-a-explained.qmd#q13) |
+| 14: **b** | 24: **a** | 41: **e** | After a very long Claude Code session, Claude starts ignoring a … | [Question 14](version-a-explained.qmd#q14) |
+| 15: **c** | 27: **d** | 33: **d** | Why do LLMs work so well with Markdown files, compared with Word or … | [Question 15](version-a-explained.qmd#q15) |
+| 16: **d** | 22: **b** | 14: **c** | During training, a model reads a sentence and predicts the next … | [Question 16](version-a-explained.qmd#q16) |
+| 17: **d** | 25: **a** | 15: **b** | Claude Code uses the Claude Opus 5.5 model. Which describes their … | [Question 17](version-a-explained.qmd#q17) |
+| 18: **b** | 1: **a** | 17: **d** | What does it mean to distill an AI model? | [Question 18](version-a-explained.qmd#q18) |
+| 19: **a** | 9: **d** | 3: **c** | You need the exact sum of two 100-digit numbers. You try two ways: … | [Question 19](version-a-explained.qmd#q19) |
+| 20: **b** | 19: **c** | 26: **b** | Claude Code reads a web page while it helps you. The page has white … | [Question 20](version-a-explained.qmd#q20) |
+| 21: **e** | 2: **b** | 1: **c** | You have step-by-step instructions, plus a small program, for … | [Question 21](version-a-explained.qmd#q21) |
+| 22: **c** | 12: **a** | 29: **b** | Our static website's repo was already on GitHub. Then we turned on … | [Question 22](version-a-explained.qmd#q22) |
+| 23: **a** | 37: **d** | 38: **d** | Why is it risky to give a very powerful AI a goal such as "Make as … | [Question 23](version-a-explained.qmd#q23) |
+| 24: **a** | 11: **a** | 36: **a** | You send Claude a question that is 1,000 tokens long, and it replies … | [Question 24](version-a-explained.qmd#q24) |
+| 25: **a** | 38: **b** | 37: **b** | A hospital wants AI to summarize patient records, but it must not … | [Question 25](version-a-explained.qmd#q25) |
+| 26: **d** | 43: **e** | 20: **e** | A tokenizer splits the text "Elephants are enormous." into tokens. … | [Question 26](version-a-explained.qmd#q26) |
+| 27: **d** | 8: **b** | 8: **a** | A browser asks a web server for a page. To build the page, the web … | [Question 27](version-a-explained.qmd#q27) |
+| 28: **a** | 16: **a** | 21: **b** | What is the difference between /compact and /clear in Claude Code? | [Question 28](version-a-explained.qmd#q28) |
+| 29: **e** | 36: **c** | 31: **d** | A bank wants its AI to stick closely to the most probable words, so … | [Question 29](version-a-explained.qmd#q29) |
+| 30: **c** | 41: **d** | 9: **b** | You want Claude Code to follow a rule every time it works on your … | [Question 30](version-a-explained.qmd#q30) |
+| 31: **b** | 13: **a** | 43: **a** | Which of these could be built as a static website (only HTML, CSS … | [Question 31](version-a-explained.qmd#q31) |
+| 32: **d** | 14: **a** | 4: **b** | Which task is the best fit for an agentic AI tool, such as Muse, and … | [Question 32](version-a-explained.qmd#q32) |
+| 33: **b** | 3: **d** | 11: **d** | A Mac user, a Linux user and a Windows user all want to use the Bash … | [Question 33](version-a-explained.qmd#q33) |
+| 34: **a** | 4: **c** | 42: **d** | Three students work together on the same project. What role does … | [Question 34](version-a-explained.qmd#q34) |
+| 35: **e** | 30: **c** | 19: **e** | What is Vercel's job in the task app's architecture? | [Question 35](version-a-explained.qmd#q35) |
+| 36: **e** | 15: **c** | 35: **c** | Model X has a few billion parameters. Model Y has over a trillion. … | [Question 36](version-a-explained.qmd#q36) |
+| 37: **b** | 20: **a** | 30: **c** | A web page has (1) headings, paragraphs and a bullet list; (2) its … | [Question 37](version-a-explained.qmd#q37) |
+| 38: **b** | 17: **b** | 16: **a** | An LLM is completing "The boy went to the ___". Suppose "store" is … | [Question 38](version-a-explained.qmd#q38) |
+| 39: **c** | 6: **e** | 39: **e** | What is the /rewind command in Claude Code used for? | [Question 39](version-a-explained.qmd#q39) |
+| 40: **c** | 10: **b** | 2: **c** | What is the significance of a model's training cutoff date? | [Question 40](version-a-explained.qmd#q40) |
+| 41: **b** | 21: **e** | 18: **d** | In Claude Code you have two jobs: renaming 50 files, and redesigning … | [Question 41](version-a-explained.qmd#q41) |
+| 42: **a** | 28: **c** | 25: **b** | Your project's code worked last week, but today it is broken. How … | [Question 42](version-a-explained.qmd#q42) |
+| 43: **c** | 31: **c** | 10: **a** | You move a file to another folder by typing a command in a terminal. … | [Question 43](version-a-explained.qmd#q43) |
+| 44: **1A, 2G, 3C, 4E, 5B** | 45: **1A, 2C, 3G, 4B, 5D** | 45: **1F, 2D, 3B, 4G, 5E** | Match each term with its meaning. Two meanings are not used. (10 … | [Question 44](version-a-explained.qmd#q44) |
+| 45: **1B, 2C, 3A, 4E, 5F** | 44: **1F, 2C, 3A, 4D, 5B** | 44: **1B, 2F, 3D, 4E, 5C** | Match each part of the task app's tech stack with its job. One job … | [Question 45](version-a-explained.qmd#q45) |
 
 ## Answer key by version
 
@@ -70,150 +70,150 @@ The same answers, listed by question number in each version.
 
 | Question | Answer | Explanation |
 |---:|:---|---|
-| 1 | **a** | [Version A question 1](questions-01-09.qmd#q1) |
-| 2 | **c** | [Version A question 2](questions-01-09.qmd#q2) |
-| 3 | **b** | [Version A question 3](questions-01-09.qmd#q3) |
-| 4 | **a** | [Version A question 4](questions-01-09.qmd#q4) |
-| 5 | **c** | [Version A question 5](questions-01-09.qmd#q5) |
-| 6 | **a** | [Version A question 6](questions-01-09.qmd#q6) |
-| 7 | **d** | [Version A question 7](questions-01-09.qmd#q7) |
-| 8 | **c** | [Version A question 8](questions-01-09.qmd#q8) |
-| 9 | **d** | [Version A question 9](questions-01-09.qmd#q9) |
-| 10 | **d** | [Version A question 10](questions-10-18.qmd#q10) |
-| 11 | **d** | [Version A question 11](questions-10-18.qmd#q11) |
-| 12 | **c** | [Version A question 12](questions-10-18.qmd#q12) |
-| 13 | **d** | [Version A question 13](questions-10-18.qmd#q13) |
-| 14 | **b** | [Version A question 14](questions-10-18.qmd#q14) |
-| 15 | **c** | [Version A question 15](questions-10-18.qmd#q15) |
-| 16 | **d** | [Version A question 16](questions-10-18.qmd#q16) |
-| 17 | **d** | [Version A question 17](questions-10-18.qmd#q17) |
-| 18 | **b** | [Version A question 18](questions-10-18.qmd#q18) |
-| 19 | **a** | [Version A question 19](questions-19-27.qmd#q19) |
-| 20 | **b** | [Version A question 20](questions-19-27.qmd#q20) |
-| 21 | **e** | [Version A question 21](questions-19-27.qmd#q21) |
-| 22 | **c** | [Version A question 22](questions-19-27.qmd#q22) |
-| 23 | **a** | [Version A question 23](questions-19-27.qmd#q23) |
-| 24 | **a** | [Version A question 24](questions-19-27.qmd#q24) |
-| 25 | **a** | [Version A question 25](questions-19-27.qmd#q25) |
-| 26 | **d** | [Version A question 26](questions-19-27.qmd#q26) |
-| 27 | **d** | [Version A question 27](questions-19-27.qmd#q27) |
-| 28 | **a** | [Version A question 28](questions-28-36.qmd#q28) |
-| 29 | **e** | [Version A question 29](questions-28-36.qmd#q29) |
-| 30 | **c** | [Version A question 30](questions-28-36.qmd#q30) |
-| 31 | **b** | [Version A question 31](questions-28-36.qmd#q31) |
-| 32 | **d** | [Version A question 32](questions-28-36.qmd#q32) |
-| 33 | **b** | [Version A question 33](questions-28-36.qmd#q33) |
-| 34 | **a** | [Version A question 34](questions-28-36.qmd#q34) |
-| 35 | **e** | [Version A question 35](questions-28-36.qmd#q35) |
-| 36 | **e** | [Version A question 36](questions-28-36.qmd#q36) |
-| 37 | **b** | [Version A question 37](questions-37-45.qmd#q37) |
-| 38 | **b** | [Version A question 38](questions-37-45.qmd#q38) |
-| 39 | **c** | [Version A question 39](questions-37-45.qmd#q39) |
-| 40 | **c** | [Version A question 40](questions-37-45.qmd#q40) |
-| 41 | **b** | [Version A question 41](questions-37-45.qmd#q41) |
-| 42 | **a** | [Version A question 42](questions-37-45.qmd#q42) |
-| 43 | **c** | [Version A question 43](questions-37-45.qmd#q43) |
-| 44 | **1A, 2G, 3C, 4E, 5B** | [Version A question 44](questions-37-45.qmd#q44) |
-| 45 | **1B, 2C, 3A, 4E, 5F** | [Version A question 45](questions-37-45.qmd#q45) |
+| 1 | **a** | [Version A question 1](version-a-explained.qmd#q1) |
+| 2 | **c** | [Version A question 2](version-a-explained.qmd#q2) |
+| 3 | **b** | [Version A question 3](version-a-explained.qmd#q3) |
+| 4 | **a** | [Version A question 4](version-a-explained.qmd#q4) |
+| 5 | **c** | [Version A question 5](version-a-explained.qmd#q5) |
+| 6 | **a** | [Version A question 6](version-a-explained.qmd#q6) |
+| 7 | **d** | [Version A question 7](version-a-explained.qmd#q7) |
+| 8 | **c** | [Version A question 8](version-a-explained.qmd#q8) |
+| 9 | **d** | [Version A question 9](version-a-explained.qmd#q9) |
+| 10 | **d** | [Version A question 10](version-a-explained.qmd#q10) |
+| 11 | **d** | [Version A question 11](version-a-explained.qmd#q11) |
+| 12 | **c** | [Version A question 12](version-a-explained.qmd#q12) |
+| 13 | **d** | [Version A question 13](version-a-explained.qmd#q13) |
+| 14 | **b** | [Version A question 14](version-a-explained.qmd#q14) |
+| 15 | **c** | [Version A question 15](version-a-explained.qmd#q15) |
+| 16 | **d** | [Version A question 16](version-a-explained.qmd#q16) |
+| 17 | **d** | [Version A question 17](version-a-explained.qmd#q17) |
+| 18 | **b** | [Version A question 18](version-a-explained.qmd#q18) |
+| 19 | **a** | [Version A question 19](version-a-explained.qmd#q19) |
+| 20 | **b** | [Version A question 20](version-a-explained.qmd#q20) |
+| 21 | **e** | [Version A question 21](version-a-explained.qmd#q21) |
+| 22 | **c** | [Version A question 22](version-a-explained.qmd#q22) |
+| 23 | **a** | [Version A question 23](version-a-explained.qmd#q23) |
+| 24 | **a** | [Version A question 24](version-a-explained.qmd#q24) |
+| 25 | **a** | [Version A question 25](version-a-explained.qmd#q25) |
+| 26 | **d** | [Version A question 26](version-a-explained.qmd#q26) |
+| 27 | **d** | [Version A question 27](version-a-explained.qmd#q27) |
+| 28 | **a** | [Version A question 28](version-a-explained.qmd#q28) |
+| 29 | **e** | [Version A question 29](version-a-explained.qmd#q29) |
+| 30 | **c** | [Version A question 30](version-a-explained.qmd#q30) |
+| 31 | **b** | [Version A question 31](version-a-explained.qmd#q31) |
+| 32 | **d** | [Version A question 32](version-a-explained.qmd#q32) |
+| 33 | **b** | [Version A question 33](version-a-explained.qmd#q33) |
+| 34 | **a** | [Version A question 34](version-a-explained.qmd#q34) |
+| 35 | **e** | [Version A question 35](version-a-explained.qmd#q35) |
+| 36 | **e** | [Version A question 36](version-a-explained.qmd#q36) |
+| 37 | **b** | [Version A question 37](version-a-explained.qmd#q37) |
+| 38 | **b** | [Version A question 38](version-a-explained.qmd#q38) |
+| 39 | **c** | [Version A question 39](version-a-explained.qmd#q39) |
+| 40 | **c** | [Version A question 40](version-a-explained.qmd#q40) |
+| 41 | **b** | [Version A question 41](version-a-explained.qmd#q41) |
+| 42 | **a** | [Version A question 42](version-a-explained.qmd#q42) |
+| 43 | **c** | [Version A question 43](version-a-explained.qmd#q43) |
+| 44 | **1A, 2G, 3C, 4E, 5B** | [Version A question 44](version-a-explained.qmd#q44) |
+| 45 | **1B, 2C, 3A, 4E, 5F** | [Version A question 45](version-a-explained.qmd#q45) |
 
 ### Version B
 
 | Question | Answer | Explanation |
 |---:|:---|---|
-| 1 | **a** | [Version A question 18](questions-10-18.qmd#q18) |
-| 2 | **b** | [Version A question 21](questions-19-27.qmd#q21) |
-| 3 | **d** | [Version A question 33](questions-28-36.qmd#q33) |
-| 4 | **c** | [Version A question 34](questions-28-36.qmd#q34) |
-| 5 | **d** | [Version A question 4](questions-01-09.qmd#q4) |
-| 6 | **e** | [Version A question 39](questions-37-45.qmd#q39) |
-| 7 | **c** | [Version A question 6](questions-01-09.qmd#q6) |
-| 8 | **b** | [Version A question 27](questions-19-27.qmd#q27) |
-| 9 | **d** | [Version A question 19](questions-19-27.qmd#q19) |
-| 10 | **b** | [Version A question 40](questions-37-45.qmd#q40) |
-| 11 | **a** | [Version A question 24](questions-19-27.qmd#q24) |
-| 12 | **a** | [Version A question 22](questions-19-27.qmd#q22) |
-| 13 | **a** | [Version A question 31](questions-28-36.qmd#q31) |
-| 14 | **a** | [Version A question 32](questions-28-36.qmd#q32) |
-| 15 | **c** | [Version A question 36](questions-28-36.qmd#q36) |
-| 16 | **a** | [Version A question 28](questions-28-36.qmd#q28) |
-| 17 | **b** | [Version A question 38](questions-37-45.qmd#q38) |
-| 18 | **b** | [Version A question 10](questions-10-18.qmd#q10) |
-| 19 | **c** | [Version A question 20](questions-19-27.qmd#q20) |
-| 20 | **a** | [Version A question 37](questions-37-45.qmd#q37) |
-| 21 | **e** | [Version A question 41](questions-37-45.qmd#q41) |
-| 22 | **b** | [Version A question 16](questions-10-18.qmd#q16) |
-| 23 | **b** | [Version A question 12](questions-10-18.qmd#q12) |
-| 24 | **a** | [Version A question 14](questions-10-18.qmd#q14) |
-| 25 | **a** | [Version A question 17](questions-10-18.qmd#q17) |
-| 26 | **d** | [Version A question 8](questions-01-09.qmd#q8) |
-| 27 | **d** | [Version A question 15](questions-10-18.qmd#q15) |
-| 28 | **c** | [Version A question 42](questions-37-45.qmd#q42) |
-| 29 | **d** | [Version A question 7](questions-01-09.qmd#q7) |
-| 30 | **c** | [Version A question 35](questions-28-36.qmd#q35) |
-| 31 | **c** | [Version A question 43](questions-37-45.qmd#q43) |
-| 32 | **b** | [Version A question 2](questions-01-09.qmd#q2) |
-| 33 | **d** | [Version A question 3](questions-01-09.qmd#q3) |
-| 34 | **d** | [Version A question 13](questions-10-18.qmd#q13) |
-| 35 | **c** | [Version A question 9](questions-01-09.qmd#q9) |
-| 36 | **c** | [Version A question 29](questions-28-36.qmd#q29) |
-| 37 | **d** | [Version A question 23](questions-19-27.qmd#q23) |
-| 38 | **b** | [Version A question 25](questions-19-27.qmd#q25) |
-| 39 | **c** | [Version A question 11](questions-10-18.qmd#q11) |
-| 40 | **c** | [Version A question 5](questions-01-09.qmd#q5) |
-| 41 | **d** | [Version A question 30](questions-28-36.qmd#q30) |
-| 42 | **e** | [Version A question 1](questions-01-09.qmd#q1) |
-| 43 | **e** | [Version A question 26](questions-19-27.qmd#q26) |
-| 44 | **1F, 2C, 3A, 4D, 5B** | [Version A question 45](questions-37-45.qmd#q45) |
-| 45 | **1A, 2C, 3G, 4B, 5D** | [Version A question 44](questions-37-45.qmd#q44) |
+| 1 | **a** | [Version A question 18](version-a-explained.qmd#q18) |
+| 2 | **b** | [Version A question 21](version-a-explained.qmd#q21) |
+| 3 | **d** | [Version A question 33](version-a-explained.qmd#q33) |
+| 4 | **c** | [Version A question 34](version-a-explained.qmd#q34) |
+| 5 | **d** | [Version A question 4](version-a-explained.qmd#q4) |
+| 6 | **e** | [Version A question 39](version-a-explained.qmd#q39) |
+| 7 | **c** | [Version A question 6](version-a-explained.qmd#q6) |
+| 8 | **b** | [Version A question 27](version-a-explained.qmd#q27) |
+| 9 | **d** | [Version A question 19](version-a-explained.qmd#q19) |
+| 10 | **b** | [Version A question 40](version-a-explained.qmd#q40) |
+| 11 | **a** | [Version A question 24](version-a-explained.qmd#q24) |
+| 12 | **a** | [Version A question 22](version-a-explained.qmd#q22) |
+| 13 | **a** | [Version A question 31](version-a-explained.qmd#q31) |
+| 14 | **a** | [Version A question 32](version-a-explained.qmd#q32) |
+| 15 | **c** | [Version A question 36](version-a-explained.qmd#q36) |
+| 16 | **a** | [Version A question 28](version-a-explained.qmd#q28) |
+| 17 | **b** | [Version A question 38](version-a-explained.qmd#q38) |
+| 18 | **b** | [Version A question 10](version-a-explained.qmd#q10) |
+| 19 | **c** | [Version A question 20](version-a-explained.qmd#q20) |
+| 20 | **a** | [Version A question 37](version-a-explained.qmd#q37) |
+| 21 | **e** | [Version A question 41](version-a-explained.qmd#q41) |
+| 22 | **b** | [Version A question 16](version-a-explained.qmd#q16) |
+| 23 | **b** | [Version A question 12](version-a-explained.qmd#q12) |
+| 24 | **a** | [Version A question 14](version-a-explained.qmd#q14) |
+| 25 | **a** | [Version A question 17](version-a-explained.qmd#q17) |
+| 26 | **d** | [Version A question 8](version-a-explained.qmd#q8) |
+| 27 | **d** | [Version A question 15](version-a-explained.qmd#q15) |
+| 28 | **c** | [Version A question 42](version-a-explained.qmd#q42) |
+| 29 | **d** | [Version A question 7](version-a-explained.qmd#q7) |
+| 30 | **c** | [Version A question 35](version-a-explained.qmd#q35) |
+| 31 | **c** | [Version A question 43](version-a-explained.qmd#q43) |
+| 32 | **b** | [Version A question 2](version-a-explained.qmd#q2) |
+| 33 | **d** | [Version A question 3](version-a-explained.qmd#q3) |
+| 34 | **d** | [Version A question 13](version-a-explained.qmd#q13) |
+| 35 | **c** | [Version A question 9](version-a-explained.qmd#q9) |
+| 36 | **c** | [Version A question 29](version-a-explained.qmd#q29) |
+| 37 | **d** | [Version A question 23](version-a-explained.qmd#q23) |
+| 38 | **b** | [Version A question 25](version-a-explained.qmd#q25) |
+| 39 | **c** | [Version A question 11](version-a-explained.qmd#q11) |
+| 40 | **c** | [Version A question 5](version-a-explained.qmd#q5) |
+| 41 | **d** | [Version A question 30](version-a-explained.qmd#q30) |
+| 42 | **e** | [Version A question 1](version-a-explained.qmd#q1) |
+| 43 | **e** | [Version A question 26](version-a-explained.qmd#q26) |
+| 44 | **1F, 2C, 3A, 4D, 5B** | [Version A question 45](version-a-explained.qmd#q45) |
+| 45 | **1A, 2C, 3G, 4B, 5D** | [Version A question 44](version-a-explained.qmd#q44) |
 
 ### Version C
 
 | Question | Answer | Explanation |
 |---:|:---|---|
-| 1 | **c** | [Version A question 21](questions-19-27.qmd#q21) |
-| 2 | **c** | [Version A question 40](questions-37-45.qmd#q40) |
-| 3 | **c** | [Version A question 19](questions-19-27.qmd#q19) |
-| 4 | **b** | [Version A question 32](questions-28-36.qmd#q32) |
-| 5 | **c** | [Version A question 11](questions-10-18.qmd#q11) |
-| 6 | **a** | [Version A question 12](questions-10-18.qmd#q12) |
-| 7 | **d** | [Version A question 8](questions-01-09.qmd#q8) |
-| 8 | **a** | [Version A question 27](questions-19-27.qmd#q27) |
-| 9 | **b** | [Version A question 30](questions-28-36.qmd#q30) |
-| 10 | **a** | [Version A question 43](questions-37-45.qmd#q43) |
-| 11 | **d** | [Version A question 33](questions-28-36.qmd#q33) |
-| 12 | **c** | [Version A question 7](questions-01-09.qmd#q7) |
-| 13 | **b** | [Version A question 13](questions-10-18.qmd#q13) |
-| 14 | **c** | [Version A question 16](questions-10-18.qmd#q16) |
-| 15 | **b** | [Version A question 17](questions-10-18.qmd#q17) |
-| 16 | **a** | [Version A question 38](questions-37-45.qmd#q38) |
-| 17 | **d** | [Version A question 18](questions-10-18.qmd#q18) |
-| 18 | **d** | [Version A question 41](questions-37-45.qmd#q41) |
-| 19 | **e** | [Version A question 35](questions-28-36.qmd#q35) |
-| 20 | **e** | [Version A question 26](questions-19-27.qmd#q26) |
-| 21 | **b** | [Version A question 28](questions-28-36.qmd#q28) |
-| 22 | **c** | [Version A question 2](questions-01-09.qmd#q2) |
-| 23 | **a** | [Version A question 5](questions-01-09.qmd#q5) |
-| 24 | **a** | [Version A question 3](questions-01-09.qmd#q3) |
-| 25 | **b** | [Version A question 42](questions-37-45.qmd#q42) |
-| 26 | **b** | [Version A question 20](questions-19-27.qmd#q20) |
-| 27 | **a** | [Version A question 10](questions-10-18.qmd#q10) |
-| 28 | **c** | [Version A question 1](questions-01-09.qmd#q1) |
-| 29 | **b** | [Version A question 22](questions-19-27.qmd#q22) |
-| 30 | **c** | [Version A question 37](questions-37-45.qmd#q37) |
-| 31 | **d** | [Version A question 29](questions-28-36.qmd#q29) |
-| 32 | **c** | [Version A question 9](questions-01-09.qmd#q9) |
-| 33 | **d** | [Version A question 15](questions-10-18.qmd#q15) |
-| 34 | **d** | [Version A question 4](questions-01-09.qmd#q4) |
-| 35 | **c** | [Version A question 36](questions-28-36.qmd#q36) |
-| 36 | **a** | [Version A question 24](questions-19-27.qmd#q24) |
-| 37 | **b** | [Version A question 25](questions-19-27.qmd#q25) |
-| 38 | **d** | [Version A question 23](questions-19-27.qmd#q23) |
-| 39 | **e** | [Version A question 39](questions-37-45.qmd#q39) |
-| 40 | **b** | [Version A question 6](questions-01-09.qmd#q6) |
-| 41 | **e** | [Version A question 14](questions-10-18.qmd#q14) |
-| 42 | **d** | [Version A question 34](questions-28-36.qmd#q34) |
-| 43 | **a** | [Version A question 31](questions-28-36.qmd#q31) |
-| 44 | **1B, 2F, 3D, 4E, 5C** | [Version A question 45](questions-37-45.qmd#q45) |
-| 45 | **1F, 2D, 3B, 4G, 5E** | [Version A question 44](questions-37-45.qmd#q44) |
+| 1 | **c** | [Version A question 21](version-a-explained.qmd#q21) |
+| 2 | **c** | [Version A question 40](version-a-explained.qmd#q40) |
+| 3 | **c** | [Version A question 19](version-a-explained.qmd#q19) |
+| 4 | **b** | [Version A question 32](version-a-explained.qmd#q32) |
+| 5 | **c** | [Version A question 11](version-a-explained.qmd#q11) |
+| 6 | **a** | [Version A question 12](version-a-explained.qmd#q12) |
+| 7 | **d** | [Version A question 8](version-a-explained.qmd#q8) |
+| 8 | **a** | [Version A question 27](version-a-explained.qmd#q27) |
+| 9 | **b** | [Version A question 30](version-a-explained.qmd#q30) |
+| 10 | **a** | [Version A question 43](version-a-explained.qmd#q43) |
+| 11 | **d** | [Version A question 33](version-a-explained.qmd#q33) |
+| 12 | **c** | [Version A question 7](version-a-explained.qmd#q7) |
+| 13 | **b** | [Version A question 13](version-a-explained.qmd#q13) |
+| 14 | **c** | [Version A question 16](version-a-explained.qmd#q16) |
+| 15 | **b** | [Version A question 17](version-a-explained.qmd#q17) |
+| 16 | **a** | [Version A question 38](version-a-explained.qmd#q38) |
+| 17 | **d** | [Version A question 18](version-a-explained.qmd#q18) |
+| 18 | **d** | [Version A question 41](version-a-explained.qmd#q41) |
+| 19 | **e** | [Version A question 35](version-a-explained.qmd#q35) |
+| 20 | **e** | [Version A question 26](version-a-explained.qmd#q26) |
+| 21 | **b** | [Version A question 28](version-a-explained.qmd#q28) |
+| 22 | **c** | [Version A question 2](version-a-explained.qmd#q2) |
+| 23 | **a** | [Version A question 5](version-a-explained.qmd#q5) |
+| 24 | **a** | [Version A question 3](version-a-explained.qmd#q3) |
+| 25 | **b** | [Version A question 42](version-a-explained.qmd#q42) |
+| 26 | **b** | [Version A question 20](version-a-explained.qmd#q20) |
+| 27 | **a** | [Version A question 10](version-a-explained.qmd#q10) |
+| 28 | **c** | [Version A question 1](version-a-explained.qmd#q1) |
+| 29 | **b** | [Version A question 22](version-a-explained.qmd#q22) |
+| 30 | **c** | [Version A question 37](version-a-explained.qmd#q37) |
+| 31 | **d** | [Version A question 29](version-a-explained.qmd#q29) |
+| 32 | **c** | [Version A question 9](version-a-explained.qmd#q9) |
+| 33 | **d** | [Version A question 15](version-a-explained.qmd#q15) |
+| 34 | **d** | [Version A question 4](version-a-explained.qmd#q4) |
+| 35 | **c** | [Version A question 36](version-a-explained.qmd#q36) |
+| 36 | **a** | [Version A question 24](version-a-explained.qmd#q24) |
+| 37 | **b** | [Version A question 25](version-a-explained.qmd#q25) |
+| 38 | **d** | [Version A question 23](version-a-explained.qmd#q23) |
+| 39 | **e** | [Version A question 39](version-a-explained.qmd#q39) |
+| 40 | **b** | [Version A question 6](version-a-explained.qmd#q6) |
+| 41 | **e** | [Version A question 14](version-a-explained.qmd#q14) |
+| 42 | **d** | [Version A question 34](version-a-explained.qmd#q34) |
+| 43 | **a** | [Version A question 31](version-a-explained.qmd#q31) |
+| 44 | **1B, 2F, 3D, 4E, 5C** | [Version A question 45](version-a-explained.qmd#q45) |
+| 45 | **1F, 2D, 3B, 4G, 5E** | [Version A question 44](version-a-explained.qmd#q44) |
 
 :::

@@ -18,7 +18,7 @@ The three versions have the same questions and the same answer choices; only the
 | `content/key-version-A.json` | The correct answers of Version A. The answers of Versions B and C are worked out from it, by the text of the correct choice |
 | `content/explanations/ANN.json` | The explanations for Version A question NN: one per choice, and the background |
 | `tools/exam.py` | Reads the versions and checks that they have the same questions and choices |
-| `tools/build_pages.py` | Writes the question pages and `answers-all-versions.qmd` (generated: do not edit them by hand) |
+| `tools/build_pages.py` | Writes `version-a-explained.qmd` (all 45 questions on one page) and `answers-all-versions.qmd` (generated: do not edit them by hand) |
 | `index.qmd`, `the-exams.qmd` | The hand-written pages |
 | `docs/` | The rendered site, which GitHub Pages serves |
 
