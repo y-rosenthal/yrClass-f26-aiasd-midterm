@@ -1,5 +1,9 @@
 # Midterm Exam, Fall 2026: Questions Explained
 
+NOTE - this repo was generated from a within the ../yrClass-f26-aiasd repo. See that repo for related info
+
+# What is this folder?
+
 AI Assisted Software Development (Prof. Y. Rosenthal).
 
 A Quarto book for students. It has the three versions of the midterm exam as they were given, the answers for
