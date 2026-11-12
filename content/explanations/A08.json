@@ -9,11 +9,17 @@
   },
   "tutorial": "**Generative AI** creates content. You ask, and it produces something new:\n\n- text (a chat answer, a poem, an essay),\n- images,\n- music, audio, and video.\n\nThe result is content for you to read, look at, or listen to. The AI itself does not change anything in the world.\n\n**Agentic AI** does things. It uses **tools** to take actions, checks what happened, and decides the next step, in a loop until the task is done. Examples:\n\n- modify files on your computer and run programs (for example, Claude Code),\n- browse the web and search for information,\n- fill in forms, click buttons, and place orders (computer-use and browser agents, such as Claude in Chrome).\n\nAn agent usually also generates text: it uses an LLM to decide what to do. The difference is the tools and the loop. An agent is an LLM plus tools plus a loop.\n\nA useful test is to ask: **what changes when the AI is done?**\n\n| Request | What the AI produces | Type |\n|---|---|---|\n| Write a poem | a poem (text) | generative |\n| Draw a cat in space | an image | generative |\n| Compose background music | audio | generative |\n| Book me a flight | a real booking, made on a website | agentic |\n| Fix the failing test | edited files, after running the tests | agentic |\n\nIf the AI only gives you content, it is generative. If it takes actions in other systems for you, it is agentic. Because agents take real actions, you must review what they do.",
   "read_more": [
-    {"text": "Ch. 11 AI-Assisted Development: From Chatbots to Coding Agents › What makes a tool an agent",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010400-aiAssistedDevelopment-v001.html#what-makes-a-tool-an-agent"},
-    {"text": "Ch. 7 What AI Can Do Today › A quick tour of what AI can do",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#a-quick-tour-of-what-ai-can-do-october-2026"},
-    {"text": "Ch. 7 What AI Can Do Today › Acting in the world",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#acting-in-the-world"}
+    {
+      "text": "Material for Midterm › Agentic AI vs Generative AI",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#agentic-ai-vs-generative-ai"
+    },
+    {
+      "text": "Ch. 11 AI-Assisted Development: From Chatbots to Coding Agents › What makes a tool an agent",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010400-aiAssistedDevelopment-v001.html#what-makes-a-tool-an-agent"
+    },
+    {
+      "text": "Ch. 7 What AI Can Do Today › Acting in the world",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#acting-in-the-world"
+    }
   ]
 }

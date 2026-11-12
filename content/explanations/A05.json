@@ -9,9 +9,9 @@
   },
   "tutorial": "A model's **weights** are the numbers it learned in training. They hold what the model knows.\n\n- A **closed** (proprietary) model is used only through its maker's apps or paid API. The weights never leave the company's servers. Examples: Anthropic's Claude, OpenAI's GPT-6 models, Google's Gemini.\n- An **open-weight** model has its trained weights published. Anyone can download it, run it on their own hardware, and **fine-tune** it (train it further on their own data). Examples: DeepSeek, Qwen, Kimi and GLM from China; Google's Gemma; Mistral from France.\n\nOpen-weight is not the same as open source. Open source also requires the training code and detailed information about the training data, which most open-weight releases do not include.\n\nIn 2026, Chinese labs released strong open-weight models and charged low prices to use them. Effects on US AI companies:\n\n- **Price pressure.** US labs cut prices. The trade press calls it a price war.\n- **Pressure on quality.** The very best models are still closed, but the gap is narrowing. A higher price needs a clearly better model.\n- **US products built on Chinese models.** Some US coding tools start from Chinese open-weight models.\n- **Trust disputes.** Anthropic said that some Chinese labs used fake accounts to **distill** Claude: to collect its answers and train their own models on them.\n\nFor a business that uses AI, this means more choice and lower prices. It also means more homework: before you send company data to a low-cost service abroad, check where the data goes and what your rules allow.",
   "read_more": [
-    {"text": "Ch. 7 What AI Can Do Today › The 2026 headline: cheap Chinese open-weight models",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#the-2026-headline-cheap-chinese-open-weight-models"},
-    {"text": "Ch. 7 What AI Can Do Today › Open-weight vs. closed models",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#open-weight-vs.-closed-models"}
+    {
+      "text": "Ch. 7 What AI Can Do Today › The 2026 headline: cheap Chinese open-weight models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#the-2026-headline-cheap-chinese-open-weight-models"
+    }
   ]
 }

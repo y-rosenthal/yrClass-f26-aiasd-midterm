@@ -88,19 +88,27 @@ def matching_block(q, Q, ex):
 def question_section(q):
     Q = QUESTIONS["A"][q]
     ex = load(q)
-    title = (ex or {}).get("title", "")
-    out = [f"## Question {q}{': ' + title if title else ''} {{#q{q}}}", ""]
+    # the heading is the question itself; a question with more lines (such as a numbered list) keeps the
+    # first line in the heading and the rest below it
+    first, *rest = Q["stem_md"].split("\n")
+    out = [f"## Question {q}: {first} {{#q{q} .question}}", ""]
     if q >= 44:
         out += ["::: {.callout-note appearance=\"minimal\"}",
                 "Matching was not graded on this exam: everyone was told to skip it. It is explained here so that "
                 "you can learn the material.", ":::", ""]
-    out += ["::: {.stem}", Q["stem_md"], ":::", ""]
+    if rest:
+        lines = []
+        for ln in rest:   # a blank line ends a numbered list, so the next line is its own paragraph
+            if lines and re.match(r"\d+\.\s", lines[-1]) and not re.match(r"\d+\.\s", ln):
+                lines.append("")
+            lines.append(ln)
+        out += ["::: {.stem}", "\n".join(lines), ":::", ""]
     out += matching_block(q, Q, ex) if Q["table"] else mc_block(q, Q, ex)
     out += [f"[{other_versions(q)}]{{.other-versions}}", ""]
     if ex and ex.get("tutorial"):
         out += ["### Background {.unnumbered .unlisted}", "", ex["tutorial"], ""]
     if ex and ex.get("read_more"):
-        out += ["**Read more in the course book:**", ""]
+        out += ["**Where the course material explains the answer:**", ""]
         out += [f"- [{r['text']}]({r['url']})" for r in ex["read_more"]]
         out.append("")
     if not ex:

@@ -10,9 +10,13 @@
   },
   "tutorial": "Every web app has two main parts.\n\n- The **front end** is the part that runs in the user's browser. It is what the user sees and clicks: the pages, buttons and forms. It is made of HTML (the content), CSS (the look) and JavaScript (the behavior).\n- The **back end** is everything that runs on servers. A **server** is a program (and the computer that runs it) that waits for requests and sends back answers.\n\nThe browser is a **client**: it sends requests to servers and shows the answers.\n\nIn the task app, **Next.js** produces the front end and also a part that runs on the web server. The front end also includes the Supabase **client library**, which the pages use to talk to Supabase.\n\nThe back end of the task app is spread over several companies' servers:\n\n| Back-end piece | Runs on |\n|---|---|\n| server-side part of Next.js | Vercel |\n| PostgreSQL database (profiles, tasks) | Supabase |\n| logins (authentication) | Supabase |\n| storage for uploaded images | Supabase |\n| Edge Functions (small programs of our own) | Supabase |\n| subscription payments | Stripe |\n| AI labels for tasks | OpenAI |\n\nA quick test: if you can see it or click on it in the browser, it is front end. If it stores data, checks passwords, or handles money, it runs on a server and is back end. The front end alone can show the pages, but login and data come from the back end.",
   "read_more": [
-    {"text": "Ch. 33 Browsers, Web Servers, and HTTP › Front end and back end",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/040100-browsersAndWebServers-v001.html#front-end-and-back-end"},
-    {"text": "Ch. 71 Project Architecture › Project Architecture",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"}
+    {
+      "text": "Material for Midterm › front end and back end",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#front-end-and-back-end"
+    },
+    {
+      "text": "Ch. 33 Browsers, Web Servers, and HTTP › Front end and back end",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040100-browsersAndWebServers-v001.html#front-end-and-back-end"
+    }
   ]
 }

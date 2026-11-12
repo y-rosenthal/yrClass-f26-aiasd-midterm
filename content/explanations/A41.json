@@ -11,12 +11,16 @@
   "tutorial": "Anthropic's Claude models come in **families**. From least capable to most capable:\n\n| Family | Good for |\n|---|---|\n| **Haiku** | Simple, quick tasks; the fastest and cheapest |\n| **Sonnet** | Basic, everyday work |\n| **Opus** | More complicated work |\n| **Fable** | The hardest tasks; the best model released to consumers |\n| **Mythos** | Never released to the public; used for security testing inside Anthropic and by select customers |\n\nEach family has releases with version numbers, such as Opus 4.0, Opus 4.1 and later versions.\n\nThe trade-off is simple: better models are smarter, but they cost much more to run. On a subscription, a more capable model uses up your usage limits faster. So match the model to the job:\n\n- a simple, repeated job (renaming files, small edits): a less capable model, such as Haiku;\n- a complicated job (designing or redesigning an app): a more capable model, such as Opus or Fable.\n\nIn Claude Code, you choose the model with the `/model` command, for example `/model haiku` or `/model fable`. You can also choose the **effort** with `/effort`: how hard the model thinks before it answers.",
   "read_more": [
     {
-      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › The current models",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#the-current-models"
-    },
-    {
       "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › Choosing a model",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#choosing-a-model"
+    },
+    {
+      "text": "Material for Midterm › Anthropic’s Claude families of models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#anthropics-claude-families-of-models"
+    },
+    {
+      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › The current models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#the-current-models"
     }
   ]
 }

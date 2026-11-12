@@ -10,16 +10,12 @@
   "tutorial": "A process is **deterministic** when it always gives the same result for the same input. It is **non-deterministic** when the result can change, because it depends on probability.\n\n- **Classical programs** are usually deterministic. A program that adds two numbers gives the same sum every time.\n- **LLMs** are non-deterministic. For each next token, the model calculates a **probability distribution** (a probability for every token it knows). The software then picks one, usually a likely one, but not always the most likely. So the same question can get different answers.\n\nExact arithmetic with very large numbers is hard for a model that answers directly. For small numbers, the training data has many examples. A sum of two 100-digit numbers probably never appeared in the training data. The model then produces digits that look plausible, and some can be wrong.\n\nWriting a program to add two numbers is easy for the model, because training included a lot of code. Once the program exists, running it is deterministic and exact.\n\nThis is why it is often better to have the AI **write and run a program** than to answer from its training. Coding agents such as Claude Code can do both steps: write the program and run it. Many newer AI apps also run small programs behind the scenes for tasks such as arithmetic or counting letters. In those apps, a \"direct\" answer may already come from a program.\n\nWhen an exact result matters, ask the AI to use a tool, or check the result yourself.",
   "read_more": [
     {
-      "text": "Ch. 8 How Large Language Models Work › Programming vs. training",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#programming-vs.-training"
+      "text": "Material for Midterm › deterministic vs non-deterministic",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#deterministic-vs-non-deterministic"
     },
     {
       "text": "Ch. 8 How Large Language Models Work › Choosing the next token",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#choosing-the-next-token"
-    },
-    {
-      "text": "Ch. 8 How Large Language Models Work › Why LLMs sometimes make things up",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#why-llms-sometimes-make-things-up"
     }
   ]
 }

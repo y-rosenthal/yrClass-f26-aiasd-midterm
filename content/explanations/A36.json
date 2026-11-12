@@ -11,12 +11,12 @@
   "tutorial": "Almost all modern AI uses an **artificial neural network**. It is made of many simple units (\"neurons\") in layers. Each connection between units has a number, called a **weight** or **parameter**. It sets how strongly one unit affects the next.\n\nNobody sets these numbers by hand. During **training**, the model sees an example, compares its answer with the correct one, and changes every parameter a very small amount toward the better answer. This repeats billions of times. What the model learns is stored in its parameters.\n\nModels are usually described by how many parameters they have:\n\n| Kind of model | Parameters | Runs on |\n|---|---|---|\n| Small model | A few billion | A laptop |\n| **Frontier model** (one of the most capable models) | Hundreds of billions to trillions | Very expensive hardware in data centers |\n\nMore capable models are often:\n\n- **bigger** (more parameters);\n- trained with **more data**;\n- trained **for longer**.\n\nThese are trends, not rules. That is why the question asks what is *most likely* true. Bigger models also cost much more to train and to run. A small model that runs on your own computer is slower and less capable, but your data does not go to another company.",
   "read_more": [
     {
-      "text": "Ch. 8 How Large Language Models Work › Neural networks and deep learning",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#neural-networks-and-deep-learning"
+      "text": "Material for Midterm › Levels of models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#levels-of-models"
     },
     {
-      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › The current models",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#the-current-models"
+      "text": "Ch. 9 Limits, Risks, and Responsible Use › Local models vs. cloud models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010300-limitsRisksAndResponsibleUse-v001.html#local-models-vs.-cloud-models"
     }
   ]
 }

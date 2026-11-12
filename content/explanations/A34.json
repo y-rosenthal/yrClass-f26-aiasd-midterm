@@ -10,12 +10,16 @@
   "tutorial": "**Git** is a program that runs on your computer. It records versions of the files in a project folder. A folder that git tracks is a **repository** (**repo**). Git works offline and needs no account.\n\n**GitHub** is a website that stores copies of git repos on the Internet. It is not the same as git. You need an account and an Internet connection to use it.\n\nHow a team works with GitHub:\n\n1. One person uploads the repo to GitHub.\n2. Each team member **clones** the repo. Cloning downloads a copy of the repo, with its whole history, to your computer. The copy remembers where it came from.\n3. Each person changes files and records the changes with git on their own computer.\n4. Each person uploads (**pushes**) their changes to GitHub and downloads (**pulls**) the changes that the others made.\n\nTo coordinate the work of many people on one repo, you need more git ideas, which the course covers later.\n\nA GitHub repo can be **public** (anyone can see it) or **private** (only you and the people you allow can see it). GitHub is also useful for one person: you get an online copy of your work that you can use from anywhere, and you can show your work to others.",
   "read_more": [
     {
+      "text": "Material for Midterm › github (NOT the same as git)",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#github-not-the-same-as-git"
+    },
+    {
       "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Git vs. GitHub",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#git-vs.-github"
     },
     {
-      "text": "Ch. 32 Cloning and Pulling (Working from Two Computers) (the whole chapter)",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030700-cloneAndPull-v001.html"
+      "text": "Ch. 66 Sharing a Repository: Collaborators and Forks › Two ways to work together",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/080300-sharedRepositoriesAndForks-v001.html#two-ways-to-work-together"
     }
   ]
 }

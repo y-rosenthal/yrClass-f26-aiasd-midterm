@@ -10,11 +10,17 @@
   },
   "tutorial": "An LLM has two very different kinds of memory.\n\n- **Long-term memory** is what the model learned in training. It is stored in the model's **weights** and stops at the **knowledge cutoff**, the date when its training data ends. It does not change while you chat.\n- **Working memory** is the **context window**: the text that the model can consider for the current request. It is measured in **tokens**.\n\nThe model remembers nothing between requests. Each time you send a message, the app sends the whole conversation so far to the model again. So the context window of a chat holds:\n\n- **your messages**,\n- **the AI's replies**,\n- **the system prompt**: hidden instructions from the company that runs the AI. They tell the model how to behave, for example which tools it has and what it must not do. Some companies' system prompts have been made public.\n\nIn Claude Code, the context window can also hold CLAUDE.md, auto memory, skill descriptions, MCP tool names, every file Claude reads, every command's output, and the model's thinking.\n\nWhat is not in it:\n\n- the training data,\n- other chats. A new chat starts empty, unless an app's memory feature adds saved notes.\n\nUseful commands in Claude Code:\n\n- `/clear` starts a new conversation with an empty context (CLAUDE.md, the system prompt and the skill descriptions are still loaded).\n- `/resume` shows earlier conversations that you can go back to.\n- `/context` shows what is using space.",
   "read_more": [
-    {"text": "Ch. 8 How Large Language Models Work › Working memory: the context window",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#working-memory-the-context-window"},
-    {"text": "Ch. 8 How Large Language Models Work › Long-term memory: frozen at the knowledge cutoff",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#long-term-memory-frozen-at-the-knowledge-cutoff"},
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › The context window in practice",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"}
+    {
+      "text": "Ch. 8 How Large Language Models Work › Working memory: the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#working-memory-the-context-window"
+    },
+    {
+      "text": "Material for Midterm › Context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#context-window"
+    },
+    {
+      "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › The context window in practice",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"
+    }
   ]
 }

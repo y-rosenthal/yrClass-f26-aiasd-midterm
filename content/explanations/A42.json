@@ -14,12 +14,12 @@
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#snapshots-save-points-for-your-project"
     },
     {
-      "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Key words: repository, commit, and the .git folder",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#key-words-repository-commit-and-the-.git-folder"
+      "text": "Material for Midterm › git",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#git"
     },
     {
-      "text": "Ch. 26 What Is Version Control? (Git vs. GitHub) › Why Git matters even more with AI coding agents",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030100-whatIsVersionControl-v001.html#why-git-matters-even-more-with-ai-coding-agents"
+      "text": "Ch. 29 Viewing History and Undoing Changes › Viewing an old version: git switch --detach",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030400-historyAndUndo-v001.html#viewing-an-old-version-git-switch---detach"
     }
   ]
 }

@@ -11,16 +11,16 @@
   "tutorial": "The **context window** is the model's working memory: the maximum amount of text, counted in tokens, that it can consider at once. It holds the **system prompt**, your CLAUDE.md files, the skill descriptions, the conversation, files Claude read, and tool results.\n\nA full context window causes problems:\n\n- **Context rot**: as the window fills, the model starts to forget things, especially from the middle of the conversation.\n- **Cost**: Claude Code sends the whole conversation again with every message, so a long conversation uses more tokens.\n\nClaude Code has commands to keep the used part of the window small:\n\n| Command | What it does | Use it when |\n|---|---|---|\n| `/compact` | Replaces the conversation with a summary | You want to continue the same task |\n| `/compact pay special attention to ...` | The same, but tells the summary what to keep | You know what matters next |\n| `/clear` | Erases the conversation and starts a new chat | You switch to an unrelated task |\n| `/rewind` | Goes back to an earlier prompt in the conversation | A path went wrong |\n\nAfter `/clear`, CLAUDE.md, the system prompt and the skill descriptions are still loaded. Only the conversation is gone. Claude Code also compacts by itself when the window is nearly full.\n\nA summary can lose details. That is why rules that must last belong in CLAUDE.md, not only in the chat.\n\nNone of these commands changes your project's files. They change only what is in the context window.",
   "read_more": [
     {
-      "text": "Ch. 52 Context, Models, Effort, and Usage › Freeing up context: /compact, /clear, and friends",
+      "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › Freeing up context: /compact, /clear, and friends",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#freeing-up-context-compact-clear-and-friends"
     },
     {
-      "text": "Ch. 52 Context, Models, Effort, and Usage › The context window in practice",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"
+      "text": "Ch. 48 Essential Slash Commands › Managing the conversation",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060400-slashCommands-v001.html#managing-the-conversation"
     },
     {
-      "text": "Ch. 48 Essential Slash Commands (the whole chapter)",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060400-slashCommands-v001.html"
+      "text": "Material for Midterm › Claude Code slash commands and the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#claude-code-slash-commands-and-the-context-window"
     }
   ]
 }

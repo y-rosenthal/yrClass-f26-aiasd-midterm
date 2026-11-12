@@ -11,7 +11,7 @@ This site explains the questions on the Fall 2026 midterm exam of **AI Assisted 
   - the question and all its answer choices. The correct answer is in **larger bold text**;
   - under each choice, in smaller *italic* text, why that choice is correct or wrong;
   - a short **Background** section that explains the material behind the question;
-  - links to the parts of the course book that cover it.
+  - links to the places in the course material that explain the answer.
 
 ## The three versions have the same questions
 

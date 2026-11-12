@@ -9,9 +9,17 @@
   },
   "tutorial": "These terms describe how capable an AI is **compared with humans**, and how many kinds of tasks it can do.\n\n| Term | Meaning | Exists today? |\n|---|---|---|\n| **Narrow AI** | built for one task, such as a chess engine, a spam filter or a fraud detector; it can be superhuman at that task and useless outside it | yes |\n| **AGI** (artificial general intelligence) | AI that could learn and do essentially any thinking task a human can, and carry skills over to new problems | no, hypothetical |\n| **Superintelligence** | AI far better than the best humans in nearly every field | no, hypothetical |\n\nToday's LLMs sit between narrow AI and AGI. One model can write an essay, fix code and read a chart, so it is far more general than narrow AI. But its abilities are uneven (\"jagged\"): it can help with a hard math problem and still miscount the letters in a word. There is no agreed definition or test for AGI, and people disagree about whether and when it will arrive.\n\nOther terms describe different things, not levels of intelligence:\n\n- **Open-weight** and **closed** describe how a model is shared: published weights, or use only through the maker's app or API.\n- **Agent** describes how a model is used: an LLM plus tools plus a loop.\n- **Recursive self-improvement (RSI)** describes a process: AI builds the next, more capable AI, again and again. It is dangerous because people may no longer understand what the resulting AI can do.",
   "read_more": [
-    {"text": "Ch. 7 What AI Can Do Today › Narrow AI vs. AGI",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#narrow-ai-vs.-agi"},
-    {"text": "Ch. 2 What Is AI Safety? › Key vocabulary",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"}
+    {
+      "text": "Ch. 7 What AI Can Do Today › Narrow AI vs. AGI",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010100-whatAiCanDoToday-v001.html#narrow-ai-vs.-agi"
+    },
+    {
+      "text": "Ch. 2 What Is AI Safety? Risks, Vocabulary, and Viewpoints › Key vocabulary",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/005100-whatIsAiSafety-v001.html#key-vocabulary"
+    },
+    {
+      "text": "Material for Midterm › AI Security issues",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#ai-security-issues"
+    }
   ]
 }

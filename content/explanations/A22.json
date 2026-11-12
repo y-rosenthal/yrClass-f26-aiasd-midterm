@@ -10,16 +10,12 @@
   "tutorial": "A **static website** contains only HTML, CSS and JavaScript files. It shows the same content to every visitor. It has no user logins and does not store data. On your own computer, you can open it by double-clicking its main `.html` file (often `index.html`).\n\nOther people cannot open the files on your computer. To put a website on the Internet, the files must be on a **server**: a computer that is always on and runs a **web server program**. This is called **hosting** the website.\n\nThree tools did three different jobs in the class demo:\n\n- **Git** kept the history of the website's files in a **repository** (repo) on your computer.\n- **GitHub** stored a copy of the repo online. People can see the code there, and GitHub shows the `README.md` file (from the repo's root folder) on the repo's home page.\n- **GitHub Pages** is a GitHub feature that **hosts** a static website from the repo. The site gets an address such as `https://<your-username>.github.io/<repository-name>/`. Anyone with the link can open it in a browser.\n\nThe repo on GitHub only shows the code. The GitHub Pages site shows the working website.\n\nAfter you set it up, every push of new commits to GitHub updates the live site after a minute or two. This is called **push to deploy**.\n\nGitHub Pages hosts static files only. A website with logins and stored data (a **dynamic** website) needs server-side code and a database. The course's task app used other services for that: Vercel to host the web server and Supabase for the database and logins.",
   "read_more": [
     {
-      "text": "Ch. 40 Hosting and Deployment: Getting Your App Online › Deploying from GitHub",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040700-hostingAndDeployment-v001.html#deploying-from-github"
+      "text": "Material for Midterm › github pages",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#github-pages"
     },
     {
-      "text": "Ch. 31 Putting Your Repository on GitHub › README.md and Markdown",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030600-githubRemotes-v001.html#readme.md-and-markdown"
-    },
-    {
-      "text": "Ch. 36 What Happens on the Server: Back Ends, Databases, and APIs › Static vs. dynamic websites",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040400-whatHappensOnTheServer-v001.html#static-vs.-dynamic-websites"
+      "text": "Ch. 40 Hosting and Deployment: Getting Your App Online › Where to host: four kinds of services",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040700-hostingAndDeployment-v001.html#where-to-host-four-kinds-of-services"
     }
   ]
 }

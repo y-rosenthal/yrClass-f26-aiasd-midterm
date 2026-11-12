@@ -11,16 +11,12 @@
   "tutorial": "The words **client** and **server** describe roles in a request:\n\n- A **client** is a program that *requests* data.\n- A **server** is a program that *provides* data.\n\n\"Server\" can also mean the computer that runs a server program; the context tells you which.\n\nA web application usually has three programs:\n\n1. The **browser** (Chrome, Safari, ...) is a client. It asks the web server for a page.\n2. The **web server program** sends HTML, CSS and JavaScript to the browser. To build a page, it often needs data, so it asks the database server for it, in the **SQL** language.\n3. The **database server program** (for example PostgreSQL) stores the data and provides it.\n\n```\nbrowser  --request-->  web server program  --SQL request-->  database server program\n(client)               (server, then client)                  (server)\n```\n\nSo one program can have two roles. The web server program is a **server** to the browser and a **client** of the database server. The role depends on which request you look at.\n\nAll three programs can run on one computer, or on different computers. For example, while you develop an app, the web server can run on your own computer at `localhost:3000`.\n\nThe same idea applies in the course's task app. Supabase is a server to the browser. The Edge Functions on Supabase are in turn clients of OpenAI and Stripe.",
   "read_more": [
     {
+      "text": "Material for Midterm › architecture of more complex websites",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#architecture-of-more-complex-websites"
+    },
+    {
       "text": "Ch. 33 Browsers, Web Servers, and HTTP › Clients and servers",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/040100-browsersAndWebServers-v001.html#clients-and-servers"
-    },
-    {
-      "text": "Ch. 36 What Happens on the Server: Back Ends, Databases, and APIs › Databases",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/040400-whatHappensOnTheServer-v001.html#databases"
-    },
-    {
-      "text": "Ch. 71 Project Architecture › Project Architecture",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/001007-tutorial-supabase-projectArchitecture-v001.html#project-architecture"
     }
   ]
 }

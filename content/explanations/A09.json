@@ -10,9 +10,13 @@
   },
   "tutorial": "A Claude subscription does not give you a fixed number of messages. It gives you an allowance of **work**, measured in **tokens** (the small chunks of text that the model reads and writes). A short question uses few tokens. A long session that reads many files uses many.\n\nThe allowance has limits, measured on separate clocks:\n\n- **5-hour window.** Every plan has a limit on a rolling 5-hour window.\n- **Weekly limit.** Paid plans also have a weekly limit, which resets at a fixed day and time for your account.\n- **Model limits.** Some models have a limit of their own.\n\nThere is no monthly limit; the monthly price is just the bill. Higher plans cost more and allow more tokens before you run out. claude.ai, the desktop and mobile apps, and Claude Code all use the same limits.\n\nThe allowance runs out faster with long conversations, big files, bigger models, higher effort, web search, and several sessions at the same time.\n\nWhen you hit a limit, you can:\n\n1. wait for the reset (the message tells you when),\n2. upgrade to a bigger plan,\n3. turn on **usage credits** (paid plans): pay as you go, with a monthly spending cap that you choose.\n\nRun `/usage` in Claude Code to see how much you used in the current 5-hour window, in the week, and for a particular model.\n\nDo not confuse the **usage limit** with the **length limit**. The usage limit is about how much you use Claude over time. The length limit is the **context window**: how long one conversation can get. You fix a full context window with `/clear` or `/compact`, not by waiting.",
   "read_more": [
-    {"text": "Ch. 43 Claude Models, Plans, and Usage Limits › Usage limits in plain English",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#usage-limits-in-plain-english"},
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › Checking your usage",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#checking-your-usage"}
+    {
+      "text": "Ch. 43 Claude Models, Plans, and Usage Limits › Usage limits in plain English",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050200-claudeModelsPlansAndUsage-v001.html#usage-limits-in-plain-english"
+    },
+    {
+      "text": "Material for Midterm › Claude Code subscription levels",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#claude-code-subscription-levels"
+    }
   ]
 }

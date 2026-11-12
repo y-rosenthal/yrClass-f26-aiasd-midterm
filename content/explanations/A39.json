@@ -11,12 +11,16 @@
   "tutorial": "The **context window** is the maximum amount of text, measured in tokens, that the model can consider at once. In Claude Code it holds the system prompt, CLAUDE.md, the conversation so far, files that Claude read, and tool results. Claude Code sends the whole conversation again with every message, so a long conversation uses more tokens on each message.\n\n**Context rot** means the model starts to forget things as the context window fills up, more from the middle of the conversation. To prevent it, keep the used part of the context window small. Three commands help:\n\n| Command | What it does | Use it when |\n|---|---|---|\n| `/clear` | Erases the conversation and starts a new one (CLAUDE.md still loads) | You switch to an unrelated task |\n| `/compact` | Summarizes the conversation so far to free up space | You are at a break in a long task |\n| `/rewind` | Lists your prompts and goes back to one of them (also `Esc` twice on an empty prompt) | A path went wrong after a certain prompt |\n\nFor example, you spend twenty minutes on an approach that does not work. With `/rewind`, you go back to the prompt before the failed approach. The failed part no longer takes up the context window, and you do not pay tokens for it on every later message. `/rewind` also goes back to a point that the prompt cache already holds, so it is cheap.\n\nType `/` in Claude Code to see all the slash commands.",
   "read_more": [
     {
-      "text": "Ch. 48 Essential Slash Commands (the whole chapter)",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060400-slashCommands-v001.html"
+      "text": "Ch. 49 Permissions, Modes, and Safety › Undo: checkpoints, /rewind, and Git",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060500-permissionsModesAndSafety-v001.html#undo-checkpoints-rewind-and-git"
     },
     {
-      "text": "Ch. 52 Context, Models, Effort, and Usage › Freeing up context: /compact, /clear, and friends",
+      "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › Freeing up context: /compact, /clear, and friends",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#freeing-up-context-compact-clear-and-friends"
+    },
+    {
+      "text": "Material for Midterm › Claude Code slash commands and the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#claude-code-slash-commands-and-the-context-window"
     }
   ]
 }

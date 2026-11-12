@@ -10,16 +10,16 @@
   "tutorial": "In **classic programming**, a person writes the rules. In **machine learning**, nobody writes the rules. The computer sees many examples and adjusts itself until it gets them right.\n\nA **large language model (LLM)** is a machine-learning model that does one job: it predicts the next word (more exactly, the next **token**) in a piece of text. Inside the model are billions of numbers called **weights** (or **parameters**). The weights decide which next word the model thinks is likely.\n\n**Training** works like this:\n\n1. The model reads some text and predicts the next word before it sees it.\n2. It compares its prediction with the real next word.\n3. If the prediction is wrong, it changes its weights very slightly, so the right word is a bit more likely next time.\n4. It repeats this for a huge amount of text.\n\nThe training data is enormous: web pages, books, articles and code. People often say that a model \"reads the whole Internet\". This is not exactly true, but it is not far from the truth. The model reads this data many, many times.\n\nEach change is very small. Many small changes, over trillions of tokens, give the model its knowledge of grammar, facts and style. This first stage is called **pre-training**. It takes months on thousands of special chips, so it costs a lot of money and electricity.\n\nTwo things that training does not do: it does not save the text so the model can look it up later, and it does not need a person to write a rule for each sentence.",
   "read_more": [
     {
-      "text": "Ch. 8 How Large Language Models Work › Programming vs. training",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#programming-vs.-training"
-    },
-    {
-      "text": "Ch. 8 How Large Language Models Work › How an LLM is trained",
-      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#how-an-llm-is-trained"
+      "text": "Material for Midterm › Training models",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#training-models"
     },
     {
       "text": "Ch. 8 How Large Language Models Work › Pre-training",
       "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#pre-training"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Neural networks and deep learning",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#neural-networks-and-deep-learning"
     }
   ]
 }

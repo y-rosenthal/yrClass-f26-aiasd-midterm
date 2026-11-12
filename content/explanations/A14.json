@@ -10,9 +10,17 @@
   },
   "tutorial": "The **context window** is the model's working memory for one session. It holds Claude Code's instructions, CLAUDE.md, your messages, Claude's replies, every file Claude reads, and every command's output. Every message you send makes Claude Code send all of this to the model again.\n\nCurrent Claude models have large context windows (1 million tokens). But how full the window is still matters.\n\n**Context rot** means that the model's quality drops as the context window fills. The model may forget earlier instructions or decisions, or make more mistakes. Research has found that models tend to miss information in the **middle** of a long context more often than at its beginning or end. So a decision made halfway through a long session is at the highest risk.\n\nThe fix is to keep the used part of the window small:\n\n| Command | What it does |\n|---|---|\n| `/clear` | starts a new conversation with an empty context (CLAUDE.md still loads) |\n| `/compact` | summarizes the conversation so far to free space; `/compact focus on ...` tells it what to keep |\n| `/rewind` | goes back to an earlier point and drops the detour |\n| `/context` | shows what fills the window |\n\nWhen the window gets close to full, Claude Code also compacts automatically. Details that you mentioned only in the chat can be lost then. So put lasting decisions and rules in **CLAUDE.md**: it is loaded again after compaction and after `/clear`.\n\nDo not confuse context rot with the prompt cache. An expired cache makes the next reply slower and more expensive. It does not change what Claude knows.",
   "read_more": [
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › The context window in practice",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"},
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › Freeing up context: /compact, /clear, and friends",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#freeing-up-context-compact-clear-and-friends"}
+    {
+      "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › The context window in practice",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#the-context-window-in-practice"
+    },
+    {
+      "text": "Material for Midterm › Claude Code slash commands and the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#claude-code-slash-commands-and-the-context-window"
+    },
+    {
+      "text": "Ch. 8 How Large Language Models Work › Working memory: the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/010200-howLlmsWork-v001.html#working-memory-the-context-window"
+    }
   ]
 }

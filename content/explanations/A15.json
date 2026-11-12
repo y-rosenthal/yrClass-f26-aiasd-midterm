@@ -10,7 +10,17 @@
   },
   "tutorial": "**Plain text** is a file that contains only characters you can type on your keyboard: letters, digits, spaces and symbols. You can open it in any text editor and read it.\n\n**Markdown** (files that end in `.md`) is plain text with a simple notation for formatting, called **markup**:\n\n| You type | You get |\n|---|---|\n| `# Heading` | a big heading (`##` to `######` for smaller ones) |\n| `- item` | a bullet point |\n| `1. item` | a numbered list item |\n| `*text*` | italics |\n| `**text**` | bold |\n| `[my site](https://example.com)` | a link |\n| `![photo](cat.png)` | a picture (a link to a separate image file) |\n\nThe file stays readable even before it is formatted. A person who sees `**bold**` understands it.\n\nAn LLM works with text, as a sequence of **tokens**. A Markdown file is already text, so the LLM reads it directly. That is why Markdown is used so much in AI work: `CLAUDE.md`, `AGENTS.md`, skill files, and `README.md` files on GitHub are all Markdown.\n\nA Word or Excel file is different. Besides the text, it can contain pictures, colors, fonts, charts and other formatting, stored in a file format that is not plain text. The LLM does not process these files directly.\n\nSo, when you write instructions or notes for an AI tool, use a plain-text format such as Markdown.",
   "read_more": [
-    {"text": "Ch. 31 Putting Your Repository on GitHub › README.md and Markdown",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/030600-githubRemotes-v001.html#readme.md-and-markdown"}
+    {
+      "text": "Material for Midterm › Overview of markdown",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#overview-of-markdown"
+    },
+    {
+      "text": "Ch. 44 Navigating the Claude Documentation (and Keeping Up) › Give the docs to an AI: .md pages and llms.txt",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/050300-navigatingClaudeDocs-v001.html#give-the-docs-to-an-ai-.md-pages-and-llms.txt"
+    },
+    {
+      "text": "Ch. 31 Putting Your Repository on GitHub › README.md and Markdown",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/030600-githubRemotes-v001.html#readme.md-and-markdown"
+    }
   ]
 }

@@ -9,9 +9,13 @@
   },
   "tutorial": "An LLM remembers nothing between requests. So every time you send a message, Claude Code sends the **entire** conversation to the model again: Claude Code's instructions, the tool definitions, CLAUDE.md, and all earlier messages. In a long session, that is a lot of **tokens** (the small chunks of text that the model reads, and that your usage is measured in).\n\nMost of each request is the same as the last one. Only the end is new. **Prompt caching** lets the server reuse the part it has already processed (the unchanged beginning of the request). Reading cached text is faster and billed at a much lower rate. Claude Code handles this for you.\n\nThe cache has limits:\n\n- **It expires.** After about an hour without use on a subscription (five minutes by default with an API key), the cache is gone. Your first message after a long break is slower and uses more.\n- **Some actions break it.** Switching models is one of the main ones. The next reply then reads the whole conversation at the full price.\n\nThis leads to practical habits:\n\n- Choose your model and effort at the start of a session.\n- `/rewind` goes back to a point the cache already holds, so it is cache-friendly.\n- `/clear` drops the conversation, but the start of each request (Claude Code's instructions, the tool definitions, and CLAUDE.md if unchanged) can still be read from the cache.\n- `/compact` builds a new summary, which must be processed again. Save it for natural breaks between tasks.\n\nThe cache saves time and money. It does not teach the model anything, and it does not change what the model knows.",
   "read_more": [
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › Using fewer tokens",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#using-fewer-tokens"},
-    {"text": "Ch. 52 Context, Models, Effort, and Usage › Freeing up context: /compact, /clear, and friends",
-     "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#freeing-up-context-compact-clear-and-friends"}
+    {
+      "text": "Ch. 52 Context, Models, Effort, and Usage in Claude Code › Using fewer tokens (see the deeper dive on prompt caching)",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/060800-contextModelsEffortAndUsage-v001.html#using-fewer-tokens"
+    },
+    {
+      "text": "Material for Midterm › Claude Code slash commands and the context window",
+      "url": "https://y-rosenthal.github.io/aiasd-in-progress/f26-midterm-material-v001.html#claude-code-slash-commands-and-the-context-window"
+    }
   ]
 }
